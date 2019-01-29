@@ -1,0 +1,200 @@
+Uri: http://stevenputtemans.github.io/
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\index.html
+Content Type: text/html
+
+Uri: http://stevenputtemans.github.io/img/portrait.jpg
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\img\portrait.jpeg
+Content Type: image/jpeg
+
+Uri: http://stevenputtemans.github.io/styles.css
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\styles.css
+Content Type: text/css
+
+Uri: http://stevenputtemans.github.io/index.xml
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\index.xml
+Content Type: application/xml
+
+Uri: http://stevenputtemans.github.io/site.webmanifest
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\site.webmanifest
+Content Type: application/manifest+json
+
+Uri: http://stevenputtemans.github.io/img/icon.png
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\img\icon.png
+Content Type: image/png
+
+Uri: http://stevenputtemans.github.io/img/icon-192.png
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\img\icon-192.png
+Content Type: image/png
+
+Uri: http://stevenputtemans.github.io/publication/visapp2018_industrial/
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\publication\visapp2018_industrial\index.html
+Content Type: text/html
+
+Uri: http://stevenputtemans.github.io/files/VISAPP2018_industrial.pdf
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\files\VISAPP2018_industrial.pdf
+Content Type: application/pdf
+
+Uri: http://stevenputtemans.github.io/publication/visapp2018_coconut/
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\publication\visapp2018_coconut\index.html
+Content Type: text/html
+
+Uri: http://stevenputtemans.github.io/files/VISAPP2018_coconuts.pdf
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\files\VISAPP2018_coconuts.pdf
+Content Type: application/pdf
+
+Uri: http://stevenputtemans.github.io/publication/phd_thesis/
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\publication\phd_thesis\index.html
+Content Type: text/html
+
+Uri: http://stevenputtemans.github.io/files/public_defense.pdf
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\files\public_defense.pdf
+Content Type: application/pdf
+
+Uri: http://stevenputtemans.github.io/publication/visapp2017_facedetect/
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\publication\visapp2017_facedetect\index.html
+Content Type: text/html
+
+Uri: http://stevenputtemans.github.io/files/VISIGRAPP2017poster.pdf
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\files\VISIGRAPP2017poster.pdf
+Content Type: application/pdf
+
+Uri: http://stevenputtemans.github.io/publication/ipta2016_fruit/
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\publication\ipta2016_fruit\index.html
+Content Type: text/html
+
+Uri: http://stevenputtemans.github.io/files/IPTA2016SPU.pdf
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\files\IPTA2016SPU.pdf
+Content Type: application/pdf
+
+Uri: http://stevenputtemans.github.io/publication/geobia2016_solarpanel/
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\publication\geobia2016_solarpanel\index.html
+Content Type: text/html
+
+Uri: http://stevenputtemans.github.io/files/GEOBIA2016.pdf
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\files\GEOBIA2016.pdf
+Content Type: application/pdf
+
+Uri: http://stevenputtemans.github.io/publication/visapp2016_privacy/
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\publication\visapp2016_privacy\index.html
+Content Type: text/html
+
+Uri: http://stevenputtemans.github.io/files/VISIGRAPP2016.pdf
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\files\VISIGRAPP2016.pdf
+Content Type: application/pdf
+
+Uri: http://stevenputtemans.github.io/publication/opencvblueprints/
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\publication\opencvblueprints\index.html
+Content Type: text/html
+
+Uri: http://stevenputtemans.github.io/publication/embc2015_walking/
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\publication\embc2015_walking\index.html
+Content Type: text/html
+
+Uri: http://stevenputtemans.github.io/files/EMBC2015poster.pdf
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\files\EMBC2015poster.pdf
+Content Type: application/pdf
+
+Uri: http://stevenputtemans.github.io/publication/mva2015_orchid/
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\publication\mva2015_orchid\index.html
+Content Type: text/html
+
+Uri: http://stevenputtemans.github.io/files/MVA2015poster.pdf
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\files\MVA2015poster.pdf
+Content Type: application/pdf
+
+Uri: http://stevenputtemans.github.io/talk/wetenschapuitgedokterd/
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\talk\wetenschapuitgedokterd\index.html
+Content Type: text/html
+
+Uri: http://stevenputtemans.github.io/talk/soundofscience/
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\talk\soundofscience\index.html
+Content Type: text/html
+
+Uri: http://stevenputtemans.github.io/talk/sciencebattle_finals/
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\talk\sciencebattle_finals\index.html
+Content Type: text/html
+
+Uri: http://stevenputtemans.github.io/talk/sciencebattle_antwerp/
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\talk\sciencebattle_antwerp\index.html
+Content Type: text/html
+
+Uri: http://stevenputtemans.github.io/talk/phd_defense/
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\talk\phd_defense\index.html
+Content Type: text/html
+
+Uri: http://stevenputtemans.github.io/files/publicDefense.pdf
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\files\publicDefense.pdf
+Content Type: application/pdf
+
+Uri: http://stevenputtemans.github.io/talk/deeplearningworkshop/
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\talk\deeplearningworkshop\index.html
+Content Type: text/html
+
+Uri: http://stevenputtemans.github.io/files/DeepLearningWorkshop.pdf
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\files\DeepLearningWorkshop.pdf
+Content Type: application/pdf
+
+Uri: http://stevenputtemans.github.io/js/hugo-academic.js
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\js\hugo-academic.js
+Content Type: application/javascript
+
+Uri: http://stevenputtemans.github.io/cv/
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\cv\index.html
+Content Type: text/html
+
+Uri: http://stevenputtemans.github.io/travels/
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\travels\index.html
+Content Type: text/html
+
+Uri: http://stevenputtemans.github.io/publication/
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\publication\index.html
+Content Type: text/html
+
+Uri: http://stevenputtemans.github.io/img/face_detection.png
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\img\face_detection.png
+Content Type: image/png
+
+Uri: http://stevenputtemans.github.io/img/fruit_detection.png
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\img\fruit_detection.png
+Content Type: image/png
+
+Uri: http://stevenputtemans.github.io/img/solar_panels.png
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\img\solar_panels.png
+Content Type: image/png
+
+Uri: http://stevenputtemans.github.io/img/masking.png
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\img\masking.png
+Content Type: image/png
+
+Uri: http://stevenputtemans.github.io/img/walker.png
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\img\walker.png
+Content Type: image/png
+
+Uri: http://stevenputtemans.github.io/img/orchid.png
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\img\orchid.png
+Content Type: image/png
+
+Uri: http://stevenputtemans.github.io/cv/index.xml
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\cv\index.xml
+Content Type: application/xml
+
+Uri: http://stevenputtemans.github.io/tmap.html
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\tmap.html
+Content Type: text/html
+
+Uri: http://stevenputtemans.github.io/publication/index.xml
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\publication\index.xml
+Content Type: application/xml
+
+Uri: http://stevenputtemans.github.io/jvmap/jquery-jvectormap-2.0.3.css
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\jvmap\jquery-jvectormap-2.0.3.css
+Content Type: text/css
+
+Uri: http://stevenputtemans.github.io/jvmap/jquery-jvectormap-2.0.3.min.js
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\jvmap\jquery-jvectormap-2.0.3.min.js
+Content Type: application/javascript
+
+Uri: http://stevenputtemans.github.io/jvmap/jquery-jvectormap-world-mill.js
+File Name: C:\Users\hp\OneDrive\Desktop\stevenputtemans.github.io\jvmap\jquery-jvectormap-world-mill.js
+Content Type: application/javascript
+
