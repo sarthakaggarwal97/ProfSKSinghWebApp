@@ -1,4 +1,4 @@
-<html lang="en-us"><head><base href="https://raw.githubusercontent.com/sarthakaggarwal97/ProfSKSinghWebApp/master/index.html"><base href="https://raw.githubusercontent.com/sarthakaggarwal97/ProfSKSinghWebApp/master/index.html"><base href="https://raw.githubusercontent.com/sarthakaggarwal97/ProfSKSinghWebApp/master/index.html">
+<html lang="en-us"><head><base href="https://raw.githubusercontent.com/sarthakaggarwal97/ProfSKSinghWebApp/master/index.html"><base href="https://raw.githubusercontent.com/sarthakaggarwal97/ProfSKSinghWebApp/master/index.html"><base href="https://raw.githubusercontent.com/sarthakaggarwal97/ProfSKSinghWebApp/master/index.html"><base href="https://raw.githubusercontent.com/sarthakaggarwal97/ProfSKSinghWebApp/master/index.html">
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -4695,6 +4695,1539 @@ body.dark {
   background: rgb(40, 42, 54);
   color: rgb(248, 248, 242);
 }
+</style><style>
+
+
+  
+/*************************************************
+ *  Hugo Academic: an academic theme for Hugo.
+ *  Designed by @GeorgeCushen.
+ *  https://github.com/gcushen/hugo-academic
+ **************************************************/
+
+/*************************************************
+ *  Core
+ **************************************************/
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.row:after,
+.row:before {
+  content: " ";
+  display: table;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: rgba(0,0,0,0.8);
+  line-height: 1.65;
+}
+@media screen and (min-width: 58em) {
+  html {
+    font-size: 20px;
+  }
+}
+
+body {
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: inherit;
+  color: inherit;
+  background-color: #fff;
+  margin-top: 71px; /* Offset body content by navbar height. */
+  padding-top: 0;
+  counter-reset: captions;
+}
+@media screen and (max-width: 1200px) { /* Match max-width of .nav-bar query. */
+  body {
+    margin-top: 51px; /* Offset body content by navbar height. */
+  }
+}
+
+.max-width-640 {
+  max-width: 640px;
+}
+
+.margin-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-text {
+  text-align: center;
+}
+
+/* Body text */
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* Lists */
+ul, ol, dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* Navigation bar text */
+.navbar-default {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.25;
+  text-rendering: optimizeLegibility;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  margin-bottom: .5rem;
+  line-height: 1.25;
+  color: #313131;
+  text-rendering: optimizeLegibility;
+}
+h1 {
+  font-size: 2.25rem;
+}
+h2 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+h3 {
+  font-weight: 700;
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+}
+h4, h5, h6 {
+  font-weight: 700;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+a,
+h3.article-title a:hover {
+  color: #0095eb;
+  text-decoration: none;
+  transition: color 0.6s ease;
+}
+
+a:hover,
+a:focus {
+  color: #0095eb;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+.img-responsive {
+  /* Extend Bootstrap declaration with centering. */
+  margin: 0 auto;
+}
+
+figcaption:before {
+  font-weight: 700;
+  text-transform: uppercase;
+  content: "Figure " counter(captions) ": ";
+}
+
+figcaption {
+  display: block;
+  margin-top: 0.75em;
+  line-height: 1.25;
+  font-size: 1rem;
+  margin-bottom: 1.65rem;
+  font-family: 'Montserrat', sans-serif;
+  counter-increment: captions;
+}
+
+figcaption h4 {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+pre,
+code {
+  font-family: 'Roboto Mono', monospace;
+  color: #c7254e;
+  background-color: #f9f2f4;
+}
+
+pre {
+  margin: 0 0 1rem 0;
+  overflow: auto;
+  background-color: rgb(248, 248, 248); /* Match default highlight theme. */
+  border-color: rgb(248, 248, 248);
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+/* Quotes */
+blockquote {
+  padding: .5rem 1rem;
+  margin: .8rem 0;
+  color: #7a7a7a;
+  border-left: .25rem solid #e5e5e5;
+}
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+@media (min-width: 30em) {
+  blockquote {
+    padding-right: 5rem;
+    padding-left: 1.25rem;
+  }
+}
+
+.space-below {
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 768px) {
+  .space-below {
+    margin-bottom: 10px;
+  }
+}
+
+.universal-wrapper {
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
+}
+@media only screen and (min-width: 1001px) {
+  .universal-wrapper {
+    width: 1000px;
+  }
+}
+
+small,
+.small {
+  font-size: .75em;
+}
+
+/*************************************************
+ *  Modals.
+ **************************************************/
+
+.modal-header .close {
+  font-size: 40px; /* Bigger cross. */
+  height: 30px; /* Remove icon's vertical spacing. */
+  overflow-y: hidden;
+  position: relative;
+  top: -5px;
+}
+
+.modal-content pre {
+  margin: 0;
+}
+
+#modal-error {
+  color: red;
+}
+
+/*************************************************
+ *  Gallery.
+ **************************************************/
+
+.gallery {
+  margin: 0.5em -4px 1.5em -4px;
+  font-size: 0;
+}
+
+a[data-fancybox] {
+  text-decoration: none;
+}
+
+a[data-fancybox] img {
+  height: 250px;
+  max-width: inherit;
+  display: inherit;
+  margin: 0;
+  padding: 4px;
+  box-shadow: none;
+  vertical-align: inherit;
+}
+
+.fancybox-caption {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+/*************************************************
+ *  Pager.
+ **************************************************/
+
+.post-nav {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+}
+
+.post-nav-item {
+  hyphens: auto;
+  word-wrap: break-word;
+  padding: 11px 0 12px;
+  width: 100%;
+}
+
+.post-nav-item a {
+  color: #2b2b2b;
+  line-height: 1.7;
+  text-transform: none;
+}
+
+.post-nav-item .meta-nav {
+  color: #767676;
+  font-weight: 900;
+  line-height: 2;
+  text-transform: uppercase;
+}
+
+.dark .post-nav-item a {
+  color: #ddd;
+}
+
+/*************************************************
+ *  Home Sections
+ **************************************************/
+
+@keyframes intro {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.home-section {
+  background-color: rgb(255, 255, 255);
+  padding: 110px 0 110px 0;
+  animation: intro 0.3s both;
+  animation-delay: 0.15s;
+}
+
+.home-section:first-of-type {
+  padding-top: 50px;
+}
+
+.home-section:nth-of-type(even) {
+  background-color: rgb(247, 247, 247);
+}
+
+@media screen and (max-width: 768px) {
+  .home-section {
+    padding: 60px 0 60px 0;
+  }
+  .home-section:first-of-type {
+    padding-top: 40px;
+  }
+}
+
+.section-heading h1 {
+  margin: 0 0 10px 0;
+}
+
+.section-heading p {
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #b2b2b2;
+}
+
+/*************************************************
+ *  Hero Widget
+ **************************************************/
+
+.hero-overlay {
+  position: relative;
+  padding: 3em 0;
+  clear: both;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: intro 0.3s both;
+  animation-delay: 0s;
+  animation-delay: 0.25s;
+}
+
+.hero-title {
+  font-size: 2.7rem;
+  margin-top: 0;
+  line-height: 1;
+}
+
+.hero-lead {
+  max-width: 768px;
+  font-size: 1.35rem;
+}
+
+.hero-overlay .hero-title,
+.hero-overlay .hero-lead,
+.hero-overlay .btn {
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
+
+.hero-overlay a {
+  color: #fff;
+}
+
+.hero-overlay .hero-lead a {
+  color: #fff;
+  text-decoration-line: underline;
+}
+
+.hero-overlay .btn-large {
+  font-size: 1.1rem;
+}
+
+/*************************************************
+ *  Featurette Widget
+ **************************************************/
+
+.featurette {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: #555;
+  text-align: center;
+}
+
+.featurette h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-weight: 400;
+  color: #333;
+}
+
+.dark .featurette,
+.dark .featurette h3 {
+  color: #fff;
+}
+
+.featurette-icon {
+  display: block;
+  width: 100%;
+  color: #0095eb;
+  font-size: 3rem;
+  text-align: center;
+}
+
+/*************************************************
+ *  Biography
+ **************************************************/
+
+#profile {
+  text-align: center;
+  padding: 30px 10px;
+  position: relative;
+}
+
+#profile .portrait {
+  background-image: url('img/portrait.jpeg');
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+#profile .portrait-title h2 {
+  font-size: 1.75em;
+  font-weight: 300;
+  color: #000000;
+  margin: 20px 0 10px 0;
+}
+
+#profile .portrait-title h3 {
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgba(0,0,0, 0.54);
+  margin: 0px 0 10px 0;
+}
+
+#profile ul.network-icon {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+#profile .network-icon li {
+  margin-right: 10px;
+}
+
+#profile .network-icon li:last-of-type {
+  margin-right: 0;
+}
+
+#profile .network-icon li:hover {
+  transform: scale(1.2)
+}
+
+.big-icon {
+  font-size: 2rem;
+}
+
+ul.ul-interests li {
+  font-size: 0.9rem;
+}
+
+ul.ul-edu {
+  list-style: none;
+}
+
+ul.ul-edu li {
+  position: relative;
+  padding: 0px 15px 4px 3px;
+}
+
+ul.ul-edu li .description p {
+  margin: 0;
+}
+
+ul.ul-edu li .description p.course {
+  font-size: 0.9rem;
+}
+
+ul.ul-edu li .description p.institution {
+  font-size: 0.75rem;
+  color: rgba(0,0,0,0.6);
+}
+
+/*************************************************
+ *  Sharing
+ **************************************************/
+
+.share-box {
+  float: right;
+}
+
+ul.share {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.share li {
+  display: inline-flex;
+  margin-right: 5px;
+}
+
+ul.share li:last-of-type {
+  margin-right: 0;
+}
+
+ul.share li .fa {
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  text-align: center;
+  transition: all 150ms ease-in-out;
+  color: #fff;
+}
+
+ul.share li a {
+  background-color: #b5c6ce;
+  display: block;
+  border-radius: 50%;
+  text-decoration: none !important;
+  margin: 0;
+}
+
+ul.share li:hover .fa {
+  transform: scale(1.4)
+}
+
+/*************************************************
+ *  Blog Articles
+ **************************************************/
+
+article {
+  animation: intro 0.3s both;
+  animation-delay: 0.15s;
+}
+
+.article-container {
+  max-width: 760px;
+  padding: 1rem 20px 0 20px;
+  margin: 0 auto 0 auto;
+}
+
+.article-header {
+  position: relative;
+  clear: both;
+}
+
+.article-banner {
+  width: 100%;
+  height: auto;
+}
+
+.article-header-caption {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 2px 5px;
+  color: #fff;
+  font-size: .7em;
+  background: #000;
+  text-align: right;
+  z-index: 5;
+  opacity: 0.65;
+  border-radius: 5px 0 0 0;
+}
+@media (min-width: 64em) {
+  .article-header-caption {
+    padding: 5px 10px;
+  }
+}
+
+.article-header-caption a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.article-title {
+  font-size: 1.75rem;
+}
+
+.article-title a {
+  color: #151515;
+  transition: color 0.6s ease;
+}
+
+.article-metadata {
+  margin-bottom: 15px;
+  overflow: hidden;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: #888;
+}
+
+/* For article page only, not lists. */
+article .article-metadata {
+  margin-bottom: 20px;
+  line-height: 30px; /* Match share bar line height. */
+}
+
+.article-metadata a {
+  color: #888;
+}
+
+.article-metadata a:hover {
+  color: #0095eb;
+}
+
+.middot-divider {
+  padding-right: .45em;
+  padding-left: .45em;
+  font-size: 15px;
+}
+
+.middot-divider::after {
+  content: '\00B7';
+}
+
+.article-style img,
+.article-style video {
+  box-shadow: 1px 1px 0px #edefed, -1px -1px 0px #edefed, 1px -1px 0px #edefed, -1px 1px 0px #edefed;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.article-style td img,
+.article-style td video {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.article-style figure {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.article-style figure img {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.article-widget {
+  padding-top: 1rem;
+}
+
+.article-widget h3 {
+  margin-top: 0;
+}
+
+.hr-light {
+  border-top: 1px solid rgba(0,0,0,.05);
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+#comments {
+  padding-top: 1rem;
+}
+
+/*************************************************
+ *  Publications
+ **************************************************/
+
+.pub-icon {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 0.81em;
+  padding-top: 6px;
+}
+
+.pub-banner {
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pub .pub-authors {
+  font-style: italic;
+  line-height: 30px; /* Match share bar line height. */
+}
+
+.pub .pub-row-heading {
+  font-weight: bold;
+}
+
+.pub-list-item .pub-abstract {
+  font-size: 1rem;
+}
+
+.pub-list-item .pub-authors {
+  line-height: normal;
+  font-style: normal;
+  font-size: 1rem;
+  color: #3170A5;
+}
+
+.pub-list-item .pub-publication {
+  color: #090;
+  font-size: 1rem;
+}
+
+.pub-list-item .pub-links {
+  padding-top: 10px;
+}
+
+#container-publications {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+/*************************************************
+ * Talks
+ **************************************************/
+
+.talk-metadata {
+  color: #4b4f56;
+  font-size: 0.8rem;
+}
+
+/*************************************************
+ *  Projects
+ **************************************************/
+
+#projects.home-section li {
+  margin-bottom: 1rem;
+}
+
+#projects.home-section li:last-of-type {
+  margin-bottom: 0;
+}
+
+#projects.home-section .project-title {
+  margin-bottom: 6px;
+}
+
+#projects.home-section .project-summary {
+  font-size: 0.9rem;
+  margin-bottom: 0.4rem;
+}
+
+#projects.home-section .project-tags {
+  font-size: 0.75rem;
+  color: #9c9c9c;
+}
+
+.projects-container {
+  display: block;
+  position: relative;
+  /*margin-top: 5rem;*/
+  overflow: hidden;
+}
+
+.project-toolbar{
+  margin-bottom: 2rem;
+}
+
+.project-item {
+  margin-bottom: 1.5rem;
+}
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-item:hover{
+  z-index: 3;
+}
+
+/*************************************************
+ *  Card component
+ **************************************************/
+
+.card-simple {
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,.04);
+  border: 1px solid rgba(0,0,0,.09);
+  border-radius: 3px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+}
+
+.card-simple:first-of-type {
+  margin-top: 0;
+}
+
+.card-simple p.read-more {
+  margin: 0;
+}
+
+.dark .card-simple {
+  background: rgb(40, 42, 54);
+  box-shadow: 0 1px 4px rgba(0,0,0,.04);
+  border: 1px solid rgb(68, 71, 90);
+}
+
+.card {
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  transition: all 0.2s ease-out;
+}
+
+.card .card-image {
+  display: block;
+  position: relative;
+  min-height: 100px;
+}
+
+.card h4 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.card h4 a {
+  color: #000;
+  border-bottom: solid 1px transparent;
+}
+
+.card h4 a:hover {
+  color: #000;
+  border-bottom: solid 1px #000;
+  text-decoration: none;
+}
+
+.card .card-text {
+  padding: 0.75rem 1rem 0.75rem;
+}
+
+.card .card-text p {
+  color: #999999;
+  font-size: 0.75rem;
+}
+
+.card p:last-child {
+  margin-bottom: 0;
+}
+
+.card .card-image.hover-overlay:before {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  content: " ";
+  opacity: 0;
+  transition: all 0.2s ease-out;
+}
+
+.card .card-image.hover-overlay:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  transform: translate(0, -50%);
+  opacity: 0;
+  transition: all 0.2s ease-out;
+  font-family: 'FontAwesome';
+  content: '\f0c1';
+  text-align: center;
+  font-size: 3rem;
+  color: #666;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card:hover .card-image.hover-overlay:before {
+  opacity: 0.8;
+}
+
+.card:hover .card-image.hover-overlay:after {
+  opacity: 0.6;
+}
+
+/*************************************************
+ *  Contact
+ **************************************************/
+
+#contact.home-section .fa-ul {
+  margin-left: 3.14285714rem; /* Must be > `fa-2x` icon size. */
+}
+
+#contact.home-section .fa-li {
+  position: absolute;
+  left: -3.14285714rem; /* Negative of `#contact.home-section .fa-ul` margin. */
+  width: 2rem; /* Match `fa-2x` icon size. */
+  top: 0.14285714em; /* Default FA value. */
+  text-align: center;
+}
+
+#contact.home-section li {
+  padding-top: 0.8rem; /* Align text with bottom of `fa-2x` icon. */
+  margin-bottom: 0.3rem;
+}
+
+#contact.home-section li:last-of-type {
+  margin-bottom: 0;
+}
+
+#map {
+  height: 350px;
+  width: 100%;
+}
+
+/*************************************************
+ *  Footer
+ **************************************************/
+
+footer {
+  margin: 4rem 0 0;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+footer p {
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.site-footer,
+footer a#back_to_top i {
+  color: #899596;
+}
+
+/*************************************************
+ *  Button Primary: Color Override
+ **************************************************/
+
+.btn-primary {
+  border-color: #0095eb !important;
+  background: #0095eb !important;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary:visited,
+.open > .dropdown-toggle.btn-primary {
+  background: #0095eb !important;
+}
+
+.btn-light {
+  border-color: #fff !important;
+  background: #fff !important;
+}
+
+.btn-light:hover,
+.btn-light:active,
+.btn-light.active {
+  background: rgba(0,0,0,0.4) !important;
+}
+
+/*************************************************
+ *  Toolbar Buttons
+ **************************************************/
+
+.btn-toolbar .btn {
+  font-size: 0.9rem;
+  padding: 10px 14px 9px;
+  border: none;
+}
+
+.btn-toolbar .btn:first-child {
+  border-radius: 6px 0 0 6px;
+}
+
+.btn-toolbar .btn:last-child {
+  border-radius: 0 6px 6px 0;
+}
+
+.btn-toolbar .btn.btn-primary:hover,
+.btn-toolbar .btn.btn-primary:focus {
+  background-color: #0069c0 !important;
+}
+
+.btn-toolbar .btn.btn-primary:active,
+.btn-toolbar .btn.btn-primary.active {
+  background-color: #6ec6ff !important;
+}
+
+/*************************************************
+ *  Button Outlines
+ **************************************************/
+
+.btn-outline {
+  background-color: transparent !important;
+  color: inherit;
+  transition: all .5s;
+}
+
+.btn-primary.btn-outline {
+  color: #0095eb !important;
+  border-color: #0095eb !important;
+}
+
+.btn-primary.btn-outline:focus {
+  color: #0095eb !important;
+}
+
+.btn-primary.btn-outline:active {
+  color: #fff !important;
+}
+
+.btn-light.btn-outline {
+  color: #fff !important;
+  border-color: #fff !important;
+}
+
+.btn-light.btn-outline:focus {
+  color: #fff !important;
+}
+
+.btn-light.btn-outline:active {
+  color: transparent !important;
+}
+
+.btn-success.btn-outline {
+  color: #5cb85c;
+}
+
+.btn-info.btn-outline {
+  color: #5bc0de;
+}
+
+.btn-warning.btn-outline {
+  color: #f0ad4e;
+}
+
+.btn-danger.btn-outline {
+  color: #d9534f;
+}
+
+.btn-primary.btn-outline:hover,
+.btn-light.btn-outline:hover,
+.btn-success.btn-outline:hover,
+.btn-info.btn-outline:hover,
+.btn-warning.btn-outline:hover,
+.btn-danger.btn-outline:hover {
+  color: #fff !important;
+}
+
+/*************************************************
+ *  Navigation Bar
+ **************************************************/
+
+.navbar {
+  min-height: 70px !important;
+}
+
+.navbar-default {
+  background: #fff;
+  box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11)
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+nav#navbar-main li {
+  font-size: 16px;
+}
+
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>a:focus,
+.navbar-default .navbar-nav>a:hover {
+  white-space: nowrap;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+  color: #34495e;
+  font-weight: 600;
+}
+
+.navbar-default .navbar-nav>li>a:focus {
+  color: #34495e;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #0095eb;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+  color: #0095eb;
+  font-weight: 700;
+  background-color: transparent !important; /* Override Bootstrap. */
+}
+
+.navbar-brand,
+.navbar-nav li a {
+  height: inherit;
+  line-height: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar-brand img {
+  max-height: 50px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #34495e !important;
+}
+
+.dropdown-menu {
+  background-color: #fff !important;
+}
+
+.dropdown-menu > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: 400;
+  line-height: 1.42857143;
+  color: #34495e;
+  white-space: nowrap;
+}
+
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+  color: #0095eb;
+  text-decoration: none;
+  background-color: #fff;
+}
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:focus,
+.dropdown-menu > .active > a:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #0095eb;
+  outline: 0;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:visited {
+  color: #34495e !important;
+  background-color: #fff !important;
+}
+
+.navbar-default .navbar-brand {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #2b2b2b;
+}
+
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
+  color: #2b2b2b;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar {
+    min-height: 50px !important;
+  }
+
+  .navbar-brand,
+  .navbar-nav li a {
+    height: inherit;
+    line-height: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .navbar-brand img {
+    max-height: 40px;
+  }
+
+  .navbar-header {
+    float: none;
+    min-height: inherit;
+  }
+
+  .navbar-left,
+  .navbar-right {
+    float: none !important;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+
+  .navbar-nav {
+    float: none !important;
+    margin-top: 7.5px;
+  }
+
+  .navbar-nav > li {
+    float: none;
+  }
+
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: normal;
+  }
+
+  .dropdown-menu > li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #34495e;
+    white-space: nowrap;
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    padding: 5px 15px 5px 25px;
+    line-height: 20px;
+    color: #34495e;
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+    color: inherit;
+    background-color: transparent;
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover {
+    color: #0095eb;
+    background-color: transparent;
+  }
+
+  .collapse.in {
+    display: block !important;
+  }
+}
+
+/*************************************************
+ *  Tables
+ **************************************************/
+
+table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  font-size: 0.93rem;
+}
+
+table > thead > tr > th,
+table > tbody > tr > th,
+table > tfoot > tr > th,
+table > thead > tr > td,
+table > tbody > tr > td,
+table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.43;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+
+table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #ddd;
+}
+
+table > caption + thead > tr:first-child > th,
+table > colgroup + thead > tr:first-child > th,
+table > thead:first-child > tr:first-child > th,
+table > caption + thead > tr:first-child > td,
+table > colgroup + thead > tr:first-child > td,
+table > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+
+table > tbody + tbody {
+  border-top: 2px solid #ddd;
+}
+
+table table {
+  background-color: #fff;
+}
+
+/* Table Striped */
+table > tbody > tr:nth-child(odd) > td,
+table > tbody > tr:nth-child(odd) > th {
+  background-color: #f9f9f9;
+}
+
+/* Table Hover */
+table > tbody > tr:hover > td,
+table > tbody > tr:hover > th {
+  background-color: #e5e5e5;
+}
+
+/*************************************************
+ *  Alerts
+ **************************************************/
+
+div.alert {
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+div.alert p {
+  position: relative;
+  display: block;
+  font-size: 1rem;
+  margin-left: 2rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+div.alert p:first-child::before {
+  position: absolute;
+  top: -0.5rem;
+  left: -2rem;
+  font-family: 'FontAwesome';
+  font-size: 1.5rem;
+  color: #fff;
+  content: '\f05a';
+  width: 1.5rem;
+  text-align: center;
+}
+
+div.alert-warning p:first-child::before {
+  content: '\f071';
+}
+
+div.alert a {
+  color: rgba(255,255,255,0.9);
+  text-decoration: none;
+  border-bottom: solid 1px #e4e4e4;
+  transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+div.alert a:hover {
+  border-bottom-color: transparent;
+  color: rgba(255,255,255,0.5) !important;
+}
+
+.alert-note {
+  color: #fff;
+  background-color: #03A9F4; /* Material LightBlue500 */
+  border-color: #bce8f1;
+}
+
+.alert-warning {
+  color: #fff;
+  background-color: #f44336; /* Material Red500 */
+  border-color: #ebccd1;
+}
+
+
+/*************************************************
+ *  Dark themed components
+ **************************************************/
+
+body.dark {
+  color: rgb(248, 248, 242);
+}
+
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6 {
+  color: rgb(152, 166, 173);
+}
+
+.dark pre,
+.dark code {
+  color: rgb(139, 233, 253);
+  background-color: rgb(68, 71, 90);
+
+}
+
+.dark pre {
+  background-color: rgb(68, 71, 90);
+  border-color: rgb(68, 71, 90);
+}
+
+.dark ul.share li a {
+  background-color: #0095eb;
+}
+
+.dark table table {
+  background-color: rgb(40, 42, 54);
+}
+
+/* Table Striped */
+.dark table > tbody > tr:nth-child(odd) > td,
+.dark table > tbody > tr:nth-child(odd) > th {
+  background-color: rgb(50, 52, 64);
+}
+
+/* Table Hover */
+.dark table > tbody > tr:hover > td,
+.dark table > tbody > tr:hover > th {
+  background-color: rgb(60, 62, 74);
+}
+
+.dark .article-title a {
+  color: #fff;
+}
+
+.dark #profile .portrait-title h2 {
+  color: #fff;
+}
+
+.dark #profile .portrait-title h3 {
+  color: rgba(255, 255, 255, 0.54);
+}
+
+.dark ul.ul-edu li .description p.institution {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.dark .pub-icon {
+  color: rgba(255, 255, 255, 0.54);
+}
+
+.dark .talk-metadata {
+  color: rgba(255, 255, 255, 0.54);
+}
+
+.dark .pager li > a, .pager li > span {
+  background-color: rgb(40, 42, 54);
+  border: 1px solid #ddd;
+}
+
+.dark .card {
+  background: rgb(10, 12, 24);
+  box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.2);
+}
+
+.dark .card h4 a {
+  color: #0095eb;
+  border-bottom: solid 1px transparent;
+}
+
+.dark .card .card-image.hover-overlay::before {
+  background: #666;
+}
+
+.dark .card .card-image.hover-overlay::after {
+  color: #fff;
+}
+
+.dark .navbar-default {
+  box-shadow: 0 0.125rem 0.25rem 0 rgba(255, 255, 255, .11);
+  border-color: #070707;
+}
+
+.dark select {
+  background: rgb(40, 42, 54);
+  color: rgb(248, 248, 242);
+}
 </style></head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
 
@@ -4711,7 +6244,7 @@ body.dark {
         <span class="icon-bar"></span>
       </button>
       
-      <a class="navbar-brand" href="//htmlpreview.github.io/?https://htmlpreview.github.io/?https://htmlpreview.github.io/?https://raw.githubusercontent.com/sarthakaggarwal97/ProfSKSinghWebApp/master/index.html">Personal Website</a>
+      <a class="navbar-brand" href="//htmlpreview.github.io/?https://htmlpreview.github.io/?https://htmlpreview.github.io/?https://htmlpreview.github.io/?https://raw.githubusercontent.com/sarthakaggarwal97/ProfSKSinghWebApp/master/index.html">Personal Website</a>
     </div>
 
     
@@ -7277,426 +8810,7 @@ Delhi -110042</p>
   
   
   
-  <section id="publications" class="home-section">
-    <div class="container">
-      
-
-
-
-
-<div class="row">
-  <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Recent Publications</h1>
-    
-    
-  </div>
-  <div class="col-xs-12 col-md-8">
-    
-
-    
-      
-    
-
-    
-
-    
-    
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope="" itemtype="http://schema.org/CreativeWork">
-  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    Steven Puttemans, Timothy Callemein, Toon Goedeme</span>.
-  <a href="//htmlpreview.github.io/?https://htmlpreview.github.io/?https://htmlpreview.github.io/?https://raw.githubusercontent.com/sarthakaggarwal97/ProfSKSinghWebApp/master/publication/visapp2018_industrial/index.html" itemprop="name">Building Robust Industrial Applicable Object Detection Models Using Transfer Learning and Single Pass Deep Learning Architectures</a>.
-  VISAPP,
-  2018.
-  <p>
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://lirias.kuleuven.be/bitstream/123456789/594413/2/building-robust-industrial.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="files\VISAPP2018_industrial.pdf" target="_blank" rel="noopener">
-  Slides
-</a>
-
-
-
-
-</p>
-</div>
-
-      
-    
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope="" itemtype="http://schema.org/CreativeWork">
-  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    Steven Puttemans, Kristof Van Beeck, Toon Goedeme</span>.
-  <a href="//htmlpreview.github.io/?https://htmlpreview.github.io/?https://htmlpreview.github.io/?https://raw.githubusercontent.com/sarthakaggarwal97/ProfSKSinghWebApp/master/publication/visapp2018_coconut/index.html" itemprop="name">Comparing Boosted Cascades to Deep Learning Architectures for Fast and Robust Coconut Tree Detection in Aerial Images</a>.
-  VISAPP,
-  2018.
-  <p>
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://lirias.kuleuven.be/bitstream/123456789/594416/2/comparing-boosted-cascades.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="files\VISAPP2018_coconuts.pdf" target="_blank" rel="noopener">
-  Slides
-</a>
-
-
-
-
-</p>
-</div>
-
-      
-    
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope="" itemtype="http://schema.org/CreativeWork">
-  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    Steven Puttemans</span>.
-  <a href="//htmlpreview.github.io/?https://htmlpreview.github.io/?https://htmlpreview.github.io/?https://raw.githubusercontent.com/sarthakaggarwal97/ProfSKSinghWebApp/master/publication/phd_thesis/index.html" itemprop="name">Exploiting scene constraints to improve object detection algorithms for industrial applications</a>.
-  Doctoral Manuscript,
-  2017.
-  <p>
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://lirias.kuleuven.be/bitstream/123456789/597085/2/compressed_dissertation_steven_puttemans.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="files\public_defense.pdf" target="_blank" rel="noopener">
-  Slides
-</a>
-
-
-
-
-</p>
-</div>
-
-      
-    
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope="" itemtype="http://schema.org/CreativeWork">
-  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    Steven Puttemans, Can Ergun, Toon Goedeme</span>.
-  <a href="//htmlpreview.github.io/?https://htmlpreview.github.io/?https://htmlpreview.github.io/?https://raw.githubusercontent.com/sarthakaggarwal97/ProfSKSinghWebApp/master/publication/visapp2017_facedetect/index.html" itemprop="name">Improving Open Source Face Detection by Combining an Adapted Cascade Classification Pipeline and Active Learning</a>.
-  VISAPP,
-  2017.
-  <p>
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://lirias.kuleuven.be/bitstream/123456789/560283/2/VISAPP2017.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="files\VISIGRAPP2017poster.pdf" target="_blank" rel="noopener">
-  Poster
-</a>
-
-
-
-
-
-</p>
-</div>
-
-      
-    
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope="" itemtype="http://schema.org/CreativeWork">
-  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    Steven Puttemans, Yasmin Vanbrabant, Laurent Tits, Toon Goedeme</span>.
-  <a href="//htmlpreview.github.io/?https://htmlpreview.github.io/?https://htmlpreview.github.io/?https://raw.githubusercontent.com/sarthakaggarwal97/ProfSKSinghWebApp/master/publication/ipta2016_fruit/index.html" itemprop="name">Automated visual fruit detection for harvest estimation and robotic harvesting</a>.
-  IPTA,
-  2016.
-  <p>
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://lirias.kuleuven.be/bitstream/123456789/546316/3/IPTA2016_submission_camera_ready.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="files\IPTA2016SPU.pdf" target="_blank" rel="noopener">
-  Slides
-</a>
-
-
-
-
-</p>
-</div>
-
-      
-    
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope="" itemtype="http://schema.org/CreativeWork">
-  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    Steven Puttemans, Wiebe Van Ranst, Toon Goedeme</span>.
-  <a href="//htmlpreview.github.io/?https://htmlpreview.github.io/?https://htmlpreview.github.io/?https://raw.githubusercontent.com/sarthakaggarwal97/ProfSKSinghWebApp/master/publication/geobia2016_solarpanel/index.html" itemprop="name">Detection of photovoltaic installations in RGB aerial imaging: a comparative study</a>.
-  GEOBIA,
-  2016.
-  <p>
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://lirias.kuleuven.be/bitstream/123456789/546313/1/submission_final2.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="files\GEOBIA2016.pdf" target="_blank" rel="noopener">
-  Slides
-</a>
-
-
-
-
-</p>
-</div>
-
-      
-    
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope="" itemtype="http://schema.org/CreativeWork">
-  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    Steven Puttemans, Stef Van Wolputte, Toon Goedeme</span>.
-  <a href="//htmlpreview.github.io/?https://htmlpreview.github.io/?https://htmlpreview.github.io/?https://raw.githubusercontent.com/sarthakaggarwal97/ProfSKSinghWebApp/master/publication/visapp2016_privacy/index.html" itemprop="name">Safeguarding Privacy by Reliable Automatic Blurring of Faces in Mobile Mapping Images</a>.
-  VISAPP,
-  2016.
-  <p>
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://lirias.kuleuven.be/bitstream/123456789/516446/2/VISAPP2016.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="files\VISIGRAPP2016.pdf" target="_blank" rel="noopener">
-  Slides
-</a>
-
-
-
-
-</p>
-</div>
-
-      
-    
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope="" itemtype="http://schema.org/CreativeWork">
-  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    Steven Puttemans, Joseph Howse, Quan Hua, Utkarsh Sinha</span>.
-  <a href="//htmlpreview.github.io/?https://htmlpreview.github.io/?https://htmlpreview.github.io/?https://raw.githubusercontent.com/sarthakaggarwal97/ProfSKSinghWebApp/master/publication/opencvblueprints/index.html" itemprop="name">OpenCV 3 Blueprints: Expand your knowledge of computer vision by building amazing projects with OpenCV 3</a>.
-  PACKT Publishing,
-  2015.
-  <p>
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://www.packtpub.com/application-development/opencv-3-blueprints/" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/OpenCVBlueprints/OpenCVBlueprints/" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-
-
-
-
-
-
-
-
-</p>
-</div>
-
-      
-    
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope="" itemtype="http://schema.org/CreativeWork">
-  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    Steven Puttemans, Greet Baldewijns, Tom Croonenborghs, Bart Vanrumste, Toon Goedeme</span>.
-  <a href="//htmlpreview.github.io/?https://htmlpreview.github.io/?https://htmlpreview.github.io/?https://raw.githubusercontent.com/sarthakaggarwal97/ProfSKSinghWebApp/master/publication/embc2015_walking/index.html" itemprop="name">Automated Walking Aid Detector Based on Indoor Video Recordings</a>.
-  EMBC,
-  2015.
-  <p>
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://lirias.kuleuven.be/bitstream/123456789/499873/1/EMBC2015.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="files\EMBC2015poster.pdf" target="_blank" rel="noopener">
-  Poster
-</a>
-
-
-
-
-
-</p>
-</div>
-
-      
-    
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope="" itemtype="http://schema.org/CreativeWork">
-  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    Steven Puttemans, Toon Goedeme</span>.
-  <a href="//htmlpreview.github.io/?https://htmlpreview.github.io/?https://htmlpreview.github.io/?https://raw.githubusercontent.com/sarthakaggarwal97/ProfSKSinghWebApp/master/publication/mva2015_orchid/index.html" itemprop="name">Visual Detection and Species Classification of Orchid Flowers</a>.
-  MVA,
-  2015.
-  <p>
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://lirias.kuleuven.be/bitstream/123456789/499870/1/14-22.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="files\MVA2015poster.pdf" target="_blank" rel="noopener">
-  Poster
-</a>
-
-
-
-
-
-</p>
-</div>
-
-      
-    
-
-  </div>
-</div>
-
-    </div>
-  </section>
+  
   
 
   
@@ -7708,349 +8822,73 @@ Delhi -110042</p>
 
 
 
+<div id="sites-canvas" role="main">
+<div id="goog-ws-editor-toolbar-container"> </div>
 
-<div class="row">
-  <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Recent &amp; Upcoming Talks</h1>
-    
-    
-  </div>
-  <div class="col-xs-12 col-md-8">
-    
-
-    
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope="" itemtype="http://schema.org/Event">
-  <i class="fa fa-comment-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="name"><a href="//htmlpreview.github.io/?https://htmlpreview.github.io/?https://htmlpreview.github.io/?https://raw.githubusercontent.com/sarthakaggarwal97/ProfSKSinghWebApp/master/talk/wetenschapuitgedokterd/index.html">Science Figured Out</a></span>
-  <div itemprop="startDate">
-    
-    Wed, Jun 6, 2018
-    
-      10:30
-    
-  </div>
-  <div class="talk-metadata">
-    
-            Science Figured Out
-    
-  </div>
-  <div class="talk-links">
-    
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://www.facebook.com/wu.sfo/videos/244938456057106/">
-  Video
-</a>
-
-
-
-
-
-  </div>
+<h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="" align="left">
+<span id="sites-page-title" dir="ltr" tabindex="-1" style="outline: none">Books Published.</span>
+</h3>
+<div id="sites-canvas-main" class="sites-canvas-main">
+<div id="sites-canvas-main-content">
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><p style="margin-left:22.5pt;text-indent:13.5pt"><span lang="EN-GB" style="font-size:11.0pt;color:black">Number of
+Books published &nbsp;</span><span style="color:black;font-size:11pt;text-indent:13.5pt">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span style="color:black;font-size:11pt;text-indent:13.5pt">:</span><span style="color:black;font-size:11pt;text-indent:13.5pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="color:black;font-size:11pt;text-indent:13.5pt"> 03</span></p>
+<p><b><span lang="EN-GB" style="font-size:11.0pt;color:black">&nbsp;</span></b></p>
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse" width="104%">
+<tbody><tr style="height:1.15pt">
+<td style="width:5.04%;padding:2.85pt 2.85pt 2.85pt 2.85pt;height:1.15pt" valign="top" width="5%">1.</td>
+<td style="width:94.96%;padding:2.85pt 2.85pt 2.85pt 2.85pt;height:1.15pt" valign="top" width="94%">
+<p style="margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;margin-left:0cm;text-align:justify;text-autospace:none"><span style="font-size:11.0pt">Study of ground water sustainability in Gurgon Haryana:
+  sustainability of groundwater resource ; Ram Karan Singh, Prof. S.K.Singh,
+  V.S. Malik.; scholars Press, Deutschland/Germany.</span></p>
+</td>
+</tr>
+<tr style="height:1.15pt">
+<td style="width:5.04%;padding:2.85pt 2.85pt 2.85pt 2.85pt;height:1.15pt" valign="top" width="5%">2.</td>
+<td style="width:94.96%;padding:2.85pt 2.85pt 2.85pt 2.85pt;height:1.15pt" valign="top" width="94%">
+<p style="margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;margin-left:0cm;text-align:justify;text-autospace:none"><span style="font-size:11.0pt">Assement of Ground Water Resources and
+  Managements.; AL Ramanathan ,P.Bhattacharyya, A.K Keshari, J. Bundschuch, D.
+  chandrashekharam, J. Bundschuch,, S. K. Singh. I K Pabhlications Delhi.</span></p>
+</td>
+</tr>
+<tr style="height:1.15pt">
+<td style="width:5.04%;padding:2.85pt 2.85pt 2.85pt 2.85pt;height:1.15pt" valign="top" width="5%">
+<p style="margin-top:6.0pt;margin-right:4.25pt;margin-bottom:6.0pt;margin-left:0cm;text-indent:0cm"><span lang="EN-GB" style="font-size:11.0pt;color:black"><span style="font-stretch:normal;font-size:7pt;line-height:normal;font-family:Times New Roman">&nbsp;3. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></span></p>
+</td>
+<td style="width:94.96%;padding:2.85pt 2.85pt 2.85pt 2.85pt;height:1.15pt" valign="top" width="94%">
+<p style="margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;margin-left:0cm;text-align:justify;text-autospace:none"><span style="font-size:11.0pt">Study of Hydralics of River Ganga, India; Prof.
+  S.K.Singh, R.K.Singh, Sanjay Sharma; scholars Press, Deutschland/Germany.</span></p>
+</td>
+</tr>
+</tbody></table></div></td></tr></tbody></table>
+</div> 
+</div> 
+<div id="sites-canvas-bottom-panel">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-subpages"> </div>
+<div id="sites-attachments-container">
 </div>
-
-      
-    
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope="" itemtype="http://schema.org/Event">
-  <i class="fa fa-comment-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="name"><a href="//htmlpreview.github.io/?https://htmlpreview.github.io/?https://htmlpreview.github.io/?https://raw.githubusercontent.com/sarthakaggarwal97/ProfSKSinghWebApp/master/talk/soundofscience/index.html">Sound Of Science Festival</a></span>
-  <div itemprop="startDate">
-    
-    Sun, May 27, 2018
-    
-      10:30
-    
-  </div>
-  <div class="talk-metadata">
-    
-            Scound Of Science Festival 2018
-    
-  </div>
-  <div class="talk-links">
-    
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://soundofscience.be/programmapunten/kinderen-boven/">
-  Video
-</a>
-
-
-
-
-
-  </div>
+<a xmlns="http://www.w3.org/1999/xhtml" name="page-comments"></a>
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-comments"><div class="sites-comment-docos-wrapper"><div class="sites-comment-docos"><div class="sites-comment-docos-background"></div><div class="sites-comment-docos-header"></div><div id="sites-comment-docos-pane" class="sites-comment-docos-pane"></div></div></div></div>
 </div>
+</div> 
+
+
+
+  </div>
+
 
       
     
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope="" itemtype="http://schema.org/Event">
-  <i class="fa fa-comment-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="name"><a href="//htmlpreview.github.io/?https://htmlpreview.github.io/?https://htmlpreview.github.io/?https://raw.githubusercontent.com/sarthakaggarwal97/ProfSKSinghWebApp/master/talk/sciencebattle_finals/index.html">Finale van de Wetenschapsbattle 2018</a></span>
-  <div itemprop="startDate">
+  
+
+
     
-    Fri, Mar 16, 2018
-    
-      09:00
-    
-  </div>
-  <div class="talk-metadata">
-    
-            Wetenschapsbattle 2018
-    
-  </div>
-  <div class="talk-links">
-    
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://youtu.be/RkOkGfVT5TA">
-  Video
-</a>
-
-
-
-
-
-  </div>
-</div>
-
-      
-    
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope="" itemtype="http://schema.org/Event">
-  <i class="fa fa-comment-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="name"><a href="//htmlpreview.github.io/?https://htmlpreview.github.io/?https://htmlpreview.github.io/?https://raw.githubusercontent.com/sarthakaggarwal97/ProfSKSinghWebApp/master/talk/sciencebattle_antwerp/index.html">Wetenschapsbattle 2018 - Voorronde provincie Antwerpen</a></span>
-  <div itemprop="startDate">
-    
-    Mon, Mar 12, 2018
-    
-      09:00
-    
-  </div>
-  <div class="talk-metadata">
-    
-            Wetenschapsbattle 2018
-    
-  </div>
-  <div class="talk-links">
-    
-
-
-
-
-
-
-
-
-
-  </div>
-</div>
-
-      
-    
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope="" itemtype="http://schema.org/Event">
-  <i class="fa fa-comment-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="name"><a href="//htmlpreview.github.io/?https://htmlpreview.github.io/?https://htmlpreview.github.io/?https://raw.githubusercontent.com/sarthakaggarwal97/ProfSKSinghWebApp/master/talk/phd_defense/index.html">Public PhD Defense</a></span>
-  <div itemprop="startDate">
-    
-    Wed, Dec 13, 2017
-    
-      17:30
-    
-  </div>
-  <div class="talk-metadata">
-    
-  </div>
-  <div class="talk-links">
-    
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="files\publicDefense.pdf">
-  PDF
-</a>
-
-
-
-
-
-
-
-  </div>
-</div>
-
-      
-    
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope="" itemtype="http://schema.org/Event">
-  <i class="fa fa-comment-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="name"><a href="//htmlpreview.github.io/?https://htmlpreview.github.io/?https://htmlpreview.github.io/?https://raw.githubusercontent.com/sarthakaggarwal97/ProfSKSinghWebApp/master/talk/deeplearningworkshop/index.html">Deep Learning Workshop</a></span>
-  <div itemprop="startDate">
-    
-    Wed, May 10, 2017
-    
-      08:30
-    
-  </div>
-  <div class="talk-metadata">
-    
-            Workshop Deep Learning - Aris BV
-    
-  </div>
-  <div class="talk-links">
-    
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="files\DeepLearningWorkshop.pdf">
-  PDF
-</a>
-
-
-
-
-
-
-
-  </div>
-</div>
-
-      
-    
-  </div>
-</div>
-
-    </div>
   </section>
   
 
   
   
   
-  <section id="teaching" class="home-section">
-    <div class="container">
-      
-
-
-
-
-<div class="row">
   
-  <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Teaching</h1>
-    
-  </div>
-  <div class="col-xs-12 col-md-8">
-    
-
-<h2 id="academic-courses">Academic courses</h2>
-
-<ul class="ul-edu fa-ul">
-  <li>
-    <i class="fa-li fa fa-comments"></i>
-    <div class="description">
-      <p class="course">Research methodologies | 2018 - now</p>
-    </div>
-  </li>
-  <li>
-    <i class="fa-li fa fa-comments"></i>
-    <div class="description">
-      <p class="course">Scientific seminars | 2017 - now</p>
-      <p class="institution">List of seminars: <a href="https://iiw.kuleuven.be/onderzoek/eavise/seminars" target="_blank">https://iiw.kuleuven.be/onderzoek/eavise/seminars</a></p>
-    </div>
-  </li>
-  <li>
-    <i class="fa-li fa fa-comments"></i>
-    <div class="description">
-      <p class="course">Computer vision hands-on labs using the OpenCV framework | 2015 - now</p>
-    </div>
-  </li>
-  <li>
-    <i class="fa-li fa fa-comments"></i>
-    <div class="description">
-      <p class="course">Scientific project for second year students | 2014 - 2017</p>
-      <p class="institution">Marker based augmented reality | 2017 &amp; 2016</p>
-      <p class="institution">Mini-me in 3D (creating + printing 3D models of students) | 2016</p>
-      <p class="institution">Building an anti burglar system using sensor fusion | 2014 &amp; 2015</p>
-      <p class="institution">Building a laser line based 3D scanner | 2015</p>
-      <p class="institution">360 degree panoramic photo helm | 2014</p>
-    </div>
-  </li>
-</ul>
-
-<h2 id="master-thesisses">Master thesisses</h2>
-
-<ul class="ul-edu fa-ul">
-  <li>
-    <i class="fa-li fa fa-book"></i>
-    <div class="description">
-      <p class="course">Automated coconut tree detection in aerial imagery.</p>
-    </div>
-  </li>
-  <li>
-    <i class="fa-li fa fa-book"></i>
-    <div class="description">
-      <p class="course">Improved the existing orchid flower detection pipeline.</p>
-    </div>
-  </li>
-  <li>
-    <i class="fa-li fa fa-book"></i>
-    <div class="description">
-      <p class="course">Man overboard detection using thermal cameras.</p>
-    </div>
-  </li>
-  <li>
-    <i class="fa-li fa fa-book"></i>
-    <div class="description">
-      <p class="course">Visual framework for keypoint descriptors and matchers in OpenCV3.</p>
-    </div>
-  </li>
-  <li>
-    <i class="fa-li fa fa-book"></i>
-    <div class="description">
-      <p class="course">Global framework for defining the orientation of images patches.</p>
-    </div>
-  </li>
-  <li>
-    <i class="fa-li fa fa-book"></i>
-    <div class="description">
-      <p class="course">Detection, classification and tracking of trafic at crossroads.</p>
-    </div>
-  </li>
-  <li>
-    <i class="fa-li fa fa-book"></i>
-    <div class="description">
-      <p class="course">Detection and classification of cars and pedestrians in IR images.</p>
-    </div>
-  </li>
-  <li>
-    <i class="fa-li fa fa-book"></i>
-    <div class="description">
-      <p class="course">Efficient person detection in video feeds.</p>
-    </div>
-  </li>
-</ul>
-
-  </div>
-  
-</div>
-
-
-
-    </div>
-  </section>
   
 
   
@@ -8076,17 +8914,12 @@ Delhi -110042</p>
       
       <li>
         <i class="fa-li fa fa-envelope fa-2x" aria-hidden="true"></i>
-        <span id="person-email" itemprop="email"><a href="//htmlpreview.github.io/?https://github.com/sarthakaggarwal97/ProfSKSinghWebApp/blob/master/index.html#5c2f28392a3932722c29282839313d322f1c37293039292a3932723e39">steven.puttemans@kuleuven.be</a></span>
+        <span id="person-email" itemprop="email"><a href="//htmlpreview.github.io/?https://github.com/sarthakaggarwal97/ProfSKSinghWebApp/blob/master/index.html#5c2f28392a3932722c29282839313d322f1c37293039292a3932723e39">sksinghdce@gmail.com</a></span>
       </li>
       
 
       
-      <li>
-        <i class="fa-li fa fa-comments-o fa-2x" aria-hidden="true"></i>
-        <span>
-          <a href="https://webchat.freenode.net/" target="_blank" rel="noopener">Webchat #opencv - StevenPuttemans</a>
-        </span>
-      </li>
+      
       
 
       
@@ -8094,15 +8927,12 @@ Delhi -110042</p>
       
       <li>
         <i class="fa-li fa fa-phone fa-2x" aria-hidden="true"></i>
-        <span id="person-telephone" itemprop="telephone"><a href="tel:+32%2015%2031%2069%2044">+32 15 31 69 44</a></span>
+        <span id="person-telephone" itemprop="telephone"><a href="tel:+32%2015%2031%2069%2044">Contact no:011-27871061(R), 27890035(O) 9891599903 (M)</a></span>
       </li>
       
 
       
-      <li>
-        <i class="fa-li fa fa-skype fa-2x" aria-hidden="true"></i>
-        <span><a href="skype:steven.puttemans?call">steven.puttemans</a></span>
-      </li>
+      
       
 
       
@@ -8110,7 +8940,10 @@ Delhi -110042</p>
       
       <li>
         <i class="fa-li fa fa-map-marker fa-2x" aria-hidden="true"></i>
-        <span id="person-address" itemprop="address">Room A202 - KU Leuven - Campus De Nayer, Sint-Katelijne-Waver, Belgium</span>
+        <span id="person-address" itemprop="address">CEEG Department Type V/29 
+Delhi Technological University Campus
+(Formerly Delhi College of Engineering)
+Bawana Road, Delhi- 110 042</span>
       </li>
       
 
@@ -8196,7 +9029,7 @@ Delhi -110042</p>
     
 
     
-    <script type="text/htmlpreview" data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/htmlpreview" data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/htmlpreview" data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script async="" defer="" src="//maps.googleapis.com/maps/api/js?key=AIzaSyCtaPReZ8UHh7M4Ro3brVff-PZXZNnKrPg"></script>
+    <script type="text/htmlpreview" data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/htmlpreview" data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/htmlpreview" data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/htmlpreview" data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script async="" defer="" src="//maps.googleapis.com/maps/api/js?key=AIzaSyCtaPReZ8UHh7M4Ro3brVff-PZXZNnKrPg"></script>
     
 
     
@@ -9281,6 +10114,2759 @@ Delhi -110042</p>
         MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
     </script>
 <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-120928140-1', 'auto');
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script><script>/*************************************************
+ *  Academic: the personal website framework for Hugo.
+ *  https://github.com/gcushen/hugo-academic
+ **************************************************/
+
+(function($){
+
+  /* ---------------------------------------------------------------------------
+   * Responsive scrolling for URL hashes.
+   * --------------------------------------------------------------------------- */
+
+  // Dynamically get responsive navigation bar offset.
+  let $navbar = $('.navbar-header');
+  let navbar_offset = $navbar.innerHeight();
+
+  /**
+   * Responsive hash scrolling.
+   * Check for a URL hash as an anchor.
+   * If it exists on current page, scroll to it responsively.
+   * If `target` argument omitted (e.g. after event), assume it's the window's hash.
+   */
+  function scrollToAnchor(target) {
+    // If `target` is undefined or HashChangeEvent object, set it to window's hash.
+    target = (typeof target === 'undefined' || typeof target === 'object') ? window.location.hash : target;
+    // Escape colons from IDs, such as those found in Markdown footnote links.
+    target = target.replace(/:/g, '\\:');
+
+    // If target element exists, scroll to it taking into account fixed navigation bar offset.
+    if($(target).length) {
+      $('body').addClass('scrolling');
+      $('html, body').animate({
+        scrollTop: $(target).offset().top - navbar_offset
+      }, 600, function () {
+        $('body').removeClass('scrolling');
+      });
+    }
+  }
+
+  // Make Scrollspy responsive.
+  function fixScrollspy() {
+    let $body = $('body');
+    let data = $body.data('bs.scrollspy');
+    if (data) {
+      data.options.offset = navbar_offset;
+      $body.data('bs.scrollspy', data);
+      $body.scrollspy('refresh');
+    }
+  }
+
+  // Check for hash change event and fix responsive offset for hash links (e.g. Markdown footnotes).
+  window.addEventListener("hashchange", scrollToAnchor);
+
+  /* ---------------------------------------------------------------------------
+   * Add smooth scrolling to all links inside the main navbar.
+   * --------------------------------------------------------------------------- */
+
+  $('#navbar-main li.nav-item a').on('click', function(event) {
+    // Store requested URL hash.
+    let hash = this.hash;
+
+    // If we are on the homepage and the navigation bar link is to a homepage section.
+    if ( hash && $(hash).length && ($("#homepage").length > 0)) {
+      // Prevent default click behavior.
+      event.preventDefault();
+
+      // Use jQuery's animate() method for smooth page scrolling.
+      // The numerical parameter specifies the time (ms) taken to scroll to the specified hash.
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top - navbar_offset
+      }, 800);
+    }
+  });
+
+  /* ---------------------------------------------------------------------------
+   * Smooth scrolling for Back To Top link.
+   * --------------------------------------------------------------------------- */
+
+  $('#back_to_top').on('click', function(event) {
+    event.preventDefault();
+    $('html, body').animate({
+      'scrollTop': 0
+    }, 800, function() {
+      window.location.hash = "";
+    });
+  });
+
+  /* ---------------------------------------------------------------------------
+   * Hide mobile collapsable menu on clicking a link.
+   * --------------------------------------------------------------------------- */
+
+  $(document).on('click', '.navbar-collapse.in', function(e) {
+    //get the <a> element that was clicked, even if the <span> element that is inside the <a> element is e.target
+    let targetElement = $(e.target).is('a') ? $(e.target) : $(e.target).parent();
+
+    if (targetElement.is('a') && targetElement.attr('class') != 'dropdown-toggle') {
+      $(this).collapse('hide');
+    }
+  });
+
+  /* ---------------------------------------------------------------------------
+   * Filter publications.
+   * --------------------------------------------------------------------------- */
+
+  let $grid_pubs = $('#container-publications');
+  $grid_pubs.isotope({
+    itemSelector: '.isotope-item',
+    percentPosition: true,
+    masonry: {
+      // Use Bootstrap compatible grid layout.
+      columnWidth: '.grid-sizer'
+    }
+  });
+
+  // Active publication filters.
+  let pubFilters = {};
+
+  // Flatten object by concatenating values.
+  function concatValues( obj ) {
+    let value = '';
+    for ( let prop in obj ) {
+      value += obj[ prop ];
+    }
+    return value;
+  }
+
+  $('.pub-filters').on( 'change', function() {
+    let $this = $(this);
+
+    // Get group key.
+    let filterGroup = $this[0].getAttribute('data-filter-group');
+
+    // Set filter for group.
+    pubFilters[ filterGroup ] = this.value;
+
+    // Combine filters.
+    let filterValues = concatValues( pubFilters );
+
+    // Activate filters.
+    $grid_pubs.isotope({ filter: filterValues });
+
+    // If filtering by publication type, update the URL hash to enable direct linking to results.
+    if (filterGroup == "pubtype") {
+      // Set hash URL to current filter.
+      let url = $(this).val();
+      if (url.substr(0, 9) == '.pubtype-') {
+        window.location.hash = url.substr(9);
+      } else {
+        window.location.hash = '';
+      }
+    }
+  });
+
+  // Filter publications according to hash in URL.
+  function filter_publications() {
+    let urlHash = window.location.hash.replace('#','');
+    let filterValue = '*';
+
+    // Check if hash is numeric.
+    if (urlHash != '' && !isNaN(urlHash)) {
+      filterValue = '.pubtype-' + urlHash;
+    }
+
+    // Set filter.
+    let filterGroup = 'pubtype';
+    pubFilters[ filterGroup ] = filterValue;
+    let filterValues = concatValues( pubFilters );
+
+    // Activate filters.
+    $grid_pubs.isotope({ filter: filterValues });
+
+    // Set selected option.
+    $('.pubtype-select').val(filterValue);
+  }
+
+  /* ---------------------------------------------------------------------------
+  * Google Maps or OpenStreetMap via Leaflet.
+  * --------------------------------------------------------------------------- */
+
+  function initMap () {
+    if ($('#map').length) {
+      let map_provider = $('#map-provider').val();
+      let lat = $('#map-lat').val();
+      let lng = $('#map-lng').val();
+      let zoom = parseInt($('#map-zoom').val());
+      let address = $('#map-dir').val();
+      let api_key = $('#map-api-key').val();
+      
+      if ( map_provider == 1 ) {
+        let map = new GMaps({
+          div: '#map',
+          lat: lat,
+          lng: lng,
+          zoom: zoom,
+          zoomControl: true,
+          zoomControlOpt: {
+            style: 'SMALL',
+            position: 'TOP_LEFT'
+          },
+          panControl: false,
+          streetViewControl: false,
+          mapTypeControl: false,
+          overviewMapControl: false,
+          scrollwheel: true,
+          draggable: true
+        });
+
+        map.addMarker({
+          lat: lat,
+          lng: lng,
+          click: function (e) {
+            let url = 'https://www.google.com/maps/place/' + encodeURIComponent(address) + '/@' + lat + ',' + lng +'/';
+            window.open(url, '_blank')
+          },
+          title: address
+        })
+      } else {
+          let map = new L.map('map').setView([lat, lng], zoom);
+          if ( map_provider == 3 && api_key.length ) {
+            L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+              attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+              maxZoom: 18,
+              id: 'mapbox.streets',
+              accessToken: api_key
+            }).addTo(map);
+          } else {
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+              maxZoom: 19,
+              attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+            }).addTo(map);
+          }
+          let marker = L.marker([lat, lng]).addTo(map);
+          let url = lat + ',' + lng +'#map='+ zoom +'/'+ lat +'/'+ lng +'&layers=N';
+          marker.bindPopup(address + '<p><a href="https://www.openstreetmap.org/directions?engine=osrm_car&route='+ url +'">Routing via OpenStreetMap</a></p>');
+      }
+    }
+  }
+
+  /* ---------------------------------------------------------------------------
+   * On window load.
+   * --------------------------------------------------------------------------- */
+
+  $(window).on('load', function() {
+    if (window.location.hash) {
+      // When accessing homepage from another page and `#top` hash is set, show top of page (no hash).
+      if (window.location.hash == "#top") {
+        window.location.hash = ""
+      } else {
+        // If URL contains a hash, scroll to target ID taking into account responsive offset.
+        scrollToAnchor();
+      }
+    }
+
+    // Initialize Scrollspy.
+    let $body = $('body');
+    $body.scrollspy({offset: navbar_offset });
+
+    // Call `fixScrollspy` when window is resized.
+    let resizeTimer;
+    $(window).resize(function() {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(fixScrollspy, 200);
+    });
+
+    // Filter projects.
+    $('.projects-container').each(function(index, container) {
+      let $container = $(container);
+      let $section = $container.closest('section');
+      let layout = 'masonry';
+      if ($section.find('.isotope').hasClass('js-layout-row')) {
+        layout = 'fitRows';
+      }
+
+      $container.imagesLoaded(function() {
+        // Initialize Isotope after all images have loaded.
+        $container.isotope({
+          itemSelector: '.isotope-item',
+          layoutMode: layout,
+          filter: $section.find('.default-project-filter').text()
+        });
+        // Filter items when filter link is clicked.
+        $section.find('.project-filters a').click(function() {
+          let selector = $(this).attr('data-filter');
+          $container.isotope({filter: selector});
+          $(this).removeClass('active').addClass('active').siblings().removeClass('active all');
+          return false;
+        });
+      });
+    });
+
+    // Enable publication filter for publication index page.
+    if ($('.pub-filters-select')) {
+      filter_publications();
+      // Useful for changing hash manually (e.g. in development):
+      // window.addEventListener('hashchange', filter_publications, false);
+    }
+
+    // Load citation modal on 'Cite' click.
+    $('.js-cite-modal').click(function(e) {
+      e.preventDefault();
+      let filename = $(this).attr('data-filename');
+      let modal = $('#modal');
+      modal.find('.modal-body').load( filename , function( response, status, xhr ) {
+        if ( status == 'error' ) {
+          let msg = "Error: ";
+          $('#modal-error').html( msg + xhr.status + " " + xhr.statusText );
+        } else {
+          $('.js-download-cite').attr('href', filename);
+        }
+      });
+      modal.modal('show');
+    });
+
+    // Copy citation text on 'Copy' click.
+    $('.js-copy-cite').click(function(e) {
+      e.preventDefault();
+      // Get selection.
+      let range = document.createRange();
+      let code_node = document.querySelector('#modal .modal-body');
+      range.selectNode(code_node);
+      window.getSelection().addRange(range);
+      try {
+        // Execute the copy command.
+        document.execCommand('copy');
+      } catch(e) {
+        console.log('Error: citation copy failed.');
+      }
+      // Remove selection.
+      window.getSelection().removeRange(range);
+    });
+
+    // Initialise Google Maps if necessary.
+    initMap();
+  });
+
+})(jQuery);
+</script><script>hljs.initHighlightingOnLoad();</script><script>
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script><script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-120928140-1', 'auto');
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script><script>/*************************************************
+ *  Academic: the personal website framework for Hugo.
+ *  https://github.com/gcushen/hugo-academic
+ **************************************************/
+
+(function($){
+
+  /* ---------------------------------------------------------------------------
+   * Responsive scrolling for URL hashes.
+   * --------------------------------------------------------------------------- */
+
+  // Dynamically get responsive navigation bar offset.
+  let $navbar = $('.navbar-header');
+  let navbar_offset = $navbar.innerHeight();
+
+  /**
+   * Responsive hash scrolling.
+   * Check for a URL hash as an anchor.
+   * If it exists on current page, scroll to it responsively.
+   * If `target` argument omitted (e.g. after event), assume it's the window's hash.
+   */
+  function scrollToAnchor(target) {
+    // If `target` is undefined or HashChangeEvent object, set it to window's hash.
+    target = (typeof target === 'undefined' || typeof target === 'object') ? window.location.hash : target;
+    // Escape colons from IDs, such as those found in Markdown footnote links.
+    target = target.replace(/:/g, '\\:');
+
+    // If target element exists, scroll to it taking into account fixed navigation bar offset.
+    if($(target).length) {
+      $('body').addClass('scrolling');
+      $('html, body').animate({
+        scrollTop: $(target).offset().top - navbar_offset
+      }, 600, function () {
+        $('body').removeClass('scrolling');
+      });
+    }
+  }
+
+  // Make Scrollspy responsive.
+  function fixScrollspy() {
+    let $body = $('body');
+    let data = $body.data('bs.scrollspy');
+    if (data) {
+      data.options.offset = navbar_offset;
+      $body.data('bs.scrollspy', data);
+      $body.scrollspy('refresh');
+    }
+  }
+
+  // Check for hash change event and fix responsive offset for hash links (e.g. Markdown footnotes).
+  window.addEventListener("hashchange", scrollToAnchor);
+
+  /* ---------------------------------------------------------------------------
+   * Add smooth scrolling to all links inside the main navbar.
+   * --------------------------------------------------------------------------- */
+
+  $('#navbar-main li.nav-item a').on('click', function(event) {
+    // Store requested URL hash.
+    let hash = this.hash;
+
+    // If we are on the homepage and the navigation bar link is to a homepage section.
+    if ( hash && $(hash).length && ($("#homepage").length > 0)) {
+      // Prevent default click behavior.
+      event.preventDefault();
+
+      // Use jQuery's animate() method for smooth page scrolling.
+      // The numerical parameter specifies the time (ms) taken to scroll to the specified hash.
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top - navbar_offset
+      }, 800);
+    }
+  });
+
+  /* ---------------------------------------------------------------------------
+   * Smooth scrolling for Back To Top link.
+   * --------------------------------------------------------------------------- */
+
+  $('#back_to_top').on('click', function(event) {
+    event.preventDefault();
+    $('html, body').animate({
+      'scrollTop': 0
+    }, 800, function() {
+      window.location.hash = "";
+    });
+  });
+
+  /* ---------------------------------------------------------------------------
+   * Hide mobile collapsable menu on clicking a link.
+   * --------------------------------------------------------------------------- */
+
+  $(document).on('click', '.navbar-collapse.in', function(e) {
+    //get the <a> element that was clicked, even if the <span> element that is inside the <a> element is e.target
+    let targetElement = $(e.target).is('a') ? $(e.target) : $(e.target).parent();
+
+    if (targetElement.is('a') && targetElement.attr('class') != 'dropdown-toggle') {
+      $(this).collapse('hide');
+    }
+  });
+
+  /* ---------------------------------------------------------------------------
+   * Filter publications.
+   * --------------------------------------------------------------------------- */
+
+  let $grid_pubs = $('#container-publications');
+  $grid_pubs.isotope({
+    itemSelector: '.isotope-item',
+    percentPosition: true,
+    masonry: {
+      // Use Bootstrap compatible grid layout.
+      columnWidth: '.grid-sizer'
+    }
+  });
+
+  // Active publication filters.
+  let pubFilters = {};
+
+  // Flatten object by concatenating values.
+  function concatValues( obj ) {
+    let value = '';
+    for ( let prop in obj ) {
+      value += obj[ prop ];
+    }
+    return value;
+  }
+
+  $('.pub-filters').on( 'change', function() {
+    let $this = $(this);
+
+    // Get group key.
+    let filterGroup = $this[0].getAttribute('data-filter-group');
+
+    // Set filter for group.
+    pubFilters[ filterGroup ] = this.value;
+
+    // Combine filters.
+    let filterValues = concatValues( pubFilters );
+
+    // Activate filters.
+    $grid_pubs.isotope({ filter: filterValues });
+
+    // If filtering by publication type, update the URL hash to enable direct linking to results.
+    if (filterGroup == "pubtype") {
+      // Set hash URL to current filter.
+      let url = $(this).val();
+      if (url.substr(0, 9) == '.pubtype-') {
+        window.location.hash = url.substr(9);
+      } else {
+        window.location.hash = '';
+      }
+    }
+  });
+
+  // Filter publications according to hash in URL.
+  function filter_publications() {
+    let urlHash = window.location.hash.replace('#','');
+    let filterValue = '*';
+
+    // Check if hash is numeric.
+    if (urlHash != '' && !isNaN(urlHash)) {
+      filterValue = '.pubtype-' + urlHash;
+    }
+
+    // Set filter.
+    let filterGroup = 'pubtype';
+    pubFilters[ filterGroup ] = filterValue;
+    let filterValues = concatValues( pubFilters );
+
+    // Activate filters.
+    $grid_pubs.isotope({ filter: filterValues });
+
+    // Set selected option.
+    $('.pubtype-select').val(filterValue);
+  }
+
+  /* ---------------------------------------------------------------------------
+  * Google Maps or OpenStreetMap via Leaflet.
+  * --------------------------------------------------------------------------- */
+
+  function initMap () {
+    if ($('#map').length) {
+      let map_provider = $('#map-provider').val();
+      let lat = $('#map-lat').val();
+      let lng = $('#map-lng').val();
+      let zoom = parseInt($('#map-zoom').val());
+      let address = $('#map-dir').val();
+      let api_key = $('#map-api-key').val();
+      
+      if ( map_provider == 1 ) {
+        let map = new GMaps({
+          div: '#map',
+          lat: lat,
+          lng: lng,
+          zoom: zoom,
+          zoomControl: true,
+          zoomControlOpt: {
+            style: 'SMALL',
+            position: 'TOP_LEFT'
+          },
+          panControl: false,
+          streetViewControl: false,
+          mapTypeControl: false,
+          overviewMapControl: false,
+          scrollwheel: true,
+          draggable: true
+        });
+
+        map.addMarker({
+          lat: lat,
+          lng: lng,
+          click: function (e) {
+            let url = 'https://www.google.com/maps/place/' + encodeURIComponent(address) + '/@' + lat + ',' + lng +'/';
+            window.open(url, '_blank')
+          },
+          title: address
+        })
+      } else {
+          let map = new L.map('map').setView([lat, lng], zoom);
+          if ( map_provider == 3 && api_key.length ) {
+            L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+              attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+              maxZoom: 18,
+              id: 'mapbox.streets',
+              accessToken: api_key
+            }).addTo(map);
+          } else {
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+              maxZoom: 19,
+              attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+            }).addTo(map);
+          }
+          let marker = L.marker([lat, lng]).addTo(map);
+          let url = lat + ',' + lng +'#map='+ zoom +'/'+ lat +'/'+ lng +'&layers=N';
+          marker.bindPopup(address + '<p><a href="https://www.openstreetmap.org/directions?engine=osrm_car&route='+ url +'">Routing via OpenStreetMap</a></p>');
+      }
+    }
+  }
+
+  /* ---------------------------------------------------------------------------
+   * On window load.
+   * --------------------------------------------------------------------------- */
+
+  $(window).on('load', function() {
+    if (window.location.hash) {
+      // When accessing homepage from another page and `#top` hash is set, show top of page (no hash).
+      if (window.location.hash == "#top") {
+        window.location.hash = ""
+      } else {
+        // If URL contains a hash, scroll to target ID taking into account responsive offset.
+        scrollToAnchor();
+      }
+    }
+
+    // Initialize Scrollspy.
+    let $body = $('body');
+    $body.scrollspy({offset: navbar_offset });
+
+    // Call `fixScrollspy` when window is resized.
+    let resizeTimer;
+    $(window).resize(function() {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(fixScrollspy, 200);
+    });
+
+    // Filter projects.
+    $('.projects-container').each(function(index, container) {
+      let $container = $(container);
+      let $section = $container.closest('section');
+      let layout = 'masonry';
+      if ($section.find('.isotope').hasClass('js-layout-row')) {
+        layout = 'fitRows';
+      }
+
+      $container.imagesLoaded(function() {
+        // Initialize Isotope after all images have loaded.
+        $container.isotope({
+          itemSelector: '.isotope-item',
+          layoutMode: layout,
+          filter: $section.find('.default-project-filter').text()
+        });
+        // Filter items when filter link is clicked.
+        $section.find('.project-filters a').click(function() {
+          let selector = $(this).attr('data-filter');
+          $container.isotope({filter: selector});
+          $(this).removeClass('active').addClass('active').siblings().removeClass('active all');
+          return false;
+        });
+      });
+    });
+
+    // Enable publication filter for publication index page.
+    if ($('.pub-filters-select')) {
+      filter_publications();
+      // Useful for changing hash manually (e.g. in development):
+      // window.addEventListener('hashchange', filter_publications, false);
+    }
+
+    // Load citation modal on 'Cite' click.
+    $('.js-cite-modal').click(function(e) {
+      e.preventDefault();
+      let filename = $(this).attr('data-filename');
+      let modal = $('#modal');
+      modal.find('.modal-body').load( filename , function( response, status, xhr ) {
+        if ( status == 'error' ) {
+          let msg = "Error: ";
+          $('#modal-error').html( msg + xhr.status + " " + xhr.statusText );
+        } else {
+          $('.js-download-cite').attr('href', filename);
+        }
+      });
+      modal.modal('show');
+    });
+
+    // Copy citation text on 'Copy' click.
+    $('.js-copy-cite').click(function(e) {
+      e.preventDefault();
+      // Get selection.
+      let range = document.createRange();
+      let code_node = document.querySelector('#modal .modal-body');
+      range.selectNode(code_node);
+      window.getSelection().addRange(range);
+      try {
+        // Execute the copy command.
+        document.execCommand('copy');
+      } catch(e) {
+        console.log('Error: citation copy failed.');
+      }
+      // Remove selection.
+      window.getSelection().removeRange(range);
+    });
+
+    // Initialise Google Maps if necessary.
+    initMap();
+  });
+
+})(jQuery);
+</script><script>hljs.initHighlightingOnLoad();</script><script>
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script><script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-120928140-1', 'auto');
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script><script>/*************************************************
+ *  Academic: the personal website framework for Hugo.
+ *  https://github.com/gcushen/hugo-academic
+ **************************************************/
+
+(function($){
+
+  /* ---------------------------------------------------------------------------
+   * Responsive scrolling for URL hashes.
+   * --------------------------------------------------------------------------- */
+
+  // Dynamically get responsive navigation bar offset.
+  let $navbar = $('.navbar-header');
+  let navbar_offset = $navbar.innerHeight();
+
+  /**
+   * Responsive hash scrolling.
+   * Check for a URL hash as an anchor.
+   * If it exists on current page, scroll to it responsively.
+   * If `target` argument omitted (e.g. after event), assume it's the window's hash.
+   */
+  function scrollToAnchor(target) {
+    // If `target` is undefined or HashChangeEvent object, set it to window's hash.
+    target = (typeof target === 'undefined' || typeof target === 'object') ? window.location.hash : target;
+    // Escape colons from IDs, such as those found in Markdown footnote links.
+    target = target.replace(/:/g, '\\:');
+
+    // If target element exists, scroll to it taking into account fixed navigation bar offset.
+    if($(target).length) {
+      $('body').addClass('scrolling');
+      $('html, body').animate({
+        scrollTop: $(target).offset().top - navbar_offset
+      }, 600, function () {
+        $('body').removeClass('scrolling');
+      });
+    }
+  }
+
+  // Make Scrollspy responsive.
+  function fixScrollspy() {
+    let $body = $('body');
+    let data = $body.data('bs.scrollspy');
+    if (data) {
+      data.options.offset = navbar_offset;
+      $body.data('bs.scrollspy', data);
+      $body.scrollspy('refresh');
+    }
+  }
+
+  // Check for hash change event and fix responsive offset for hash links (e.g. Markdown footnotes).
+  window.addEventListener("hashchange", scrollToAnchor);
+
+  /* ---------------------------------------------------------------------------
+   * Add smooth scrolling to all links inside the main navbar.
+   * --------------------------------------------------------------------------- */
+
+  $('#navbar-main li.nav-item a').on('click', function(event) {
+    // Store requested URL hash.
+    let hash = this.hash;
+
+    // If we are on the homepage and the navigation bar link is to a homepage section.
+    if ( hash && $(hash).length && ($("#homepage").length > 0)) {
+      // Prevent default click behavior.
+      event.preventDefault();
+
+      // Use jQuery's animate() method for smooth page scrolling.
+      // The numerical parameter specifies the time (ms) taken to scroll to the specified hash.
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top - navbar_offset
+      }, 800);
+    }
+  });
+
+  /* ---------------------------------------------------------------------------
+   * Smooth scrolling for Back To Top link.
+   * --------------------------------------------------------------------------- */
+
+  $('#back_to_top').on('click', function(event) {
+    event.preventDefault();
+    $('html, body').animate({
+      'scrollTop': 0
+    }, 800, function() {
+      window.location.hash = "";
+    });
+  });
+
+  /* ---------------------------------------------------------------------------
+   * Hide mobile collapsable menu on clicking a link.
+   * --------------------------------------------------------------------------- */
+
+  $(document).on('click', '.navbar-collapse.in', function(e) {
+    //get the <a> element that was clicked, even if the <span> element that is inside the <a> element is e.target
+    let targetElement = $(e.target).is('a') ? $(e.target) : $(e.target).parent();
+
+    if (targetElement.is('a') && targetElement.attr('class') != 'dropdown-toggle') {
+      $(this).collapse('hide');
+    }
+  });
+
+  /* ---------------------------------------------------------------------------
+   * Filter publications.
+   * --------------------------------------------------------------------------- */
+
+  let $grid_pubs = $('#container-publications');
+  $grid_pubs.isotope({
+    itemSelector: '.isotope-item',
+    percentPosition: true,
+    masonry: {
+      // Use Bootstrap compatible grid layout.
+      columnWidth: '.grid-sizer'
+    }
+  });
+
+  // Active publication filters.
+  let pubFilters = {};
+
+  // Flatten object by concatenating values.
+  function concatValues( obj ) {
+    let value = '';
+    for ( let prop in obj ) {
+      value += obj[ prop ];
+    }
+    return value;
+  }
+
+  $('.pub-filters').on( 'change', function() {
+    let $this = $(this);
+
+    // Get group key.
+    let filterGroup = $this[0].getAttribute('data-filter-group');
+
+    // Set filter for group.
+    pubFilters[ filterGroup ] = this.value;
+
+    // Combine filters.
+    let filterValues = concatValues( pubFilters );
+
+    // Activate filters.
+    $grid_pubs.isotope({ filter: filterValues });
+
+    // If filtering by publication type, update the URL hash to enable direct linking to results.
+    if (filterGroup == "pubtype") {
+      // Set hash URL to current filter.
+      let url = $(this).val();
+      if (url.substr(0, 9) == '.pubtype-') {
+        window.location.hash = url.substr(9);
+      } else {
+        window.location.hash = '';
+      }
+    }
+  });
+
+  // Filter publications according to hash in URL.
+  function filter_publications() {
+    let urlHash = window.location.hash.replace('#','');
+    let filterValue = '*';
+
+    // Check if hash is numeric.
+    if (urlHash != '' && !isNaN(urlHash)) {
+      filterValue = '.pubtype-' + urlHash;
+    }
+
+    // Set filter.
+    let filterGroup = 'pubtype';
+    pubFilters[ filterGroup ] = filterValue;
+    let filterValues = concatValues( pubFilters );
+
+    // Activate filters.
+    $grid_pubs.isotope({ filter: filterValues });
+
+    // Set selected option.
+    $('.pubtype-select').val(filterValue);
+  }
+
+  /* ---------------------------------------------------------------------------
+  * Google Maps or OpenStreetMap via Leaflet.
+  * --------------------------------------------------------------------------- */
+
+  function initMap () {
+    if ($('#map').length) {
+      let map_provider = $('#map-provider').val();
+      let lat = $('#map-lat').val();
+      let lng = $('#map-lng').val();
+      let zoom = parseInt($('#map-zoom').val());
+      let address = $('#map-dir').val();
+      let api_key = $('#map-api-key').val();
+      
+      if ( map_provider == 1 ) {
+        let map = new GMaps({
+          div: '#map',
+          lat: lat,
+          lng: lng,
+          zoom: zoom,
+          zoomControl: true,
+          zoomControlOpt: {
+            style: 'SMALL',
+            position: 'TOP_LEFT'
+          },
+          panControl: false,
+          streetViewControl: false,
+          mapTypeControl: false,
+          overviewMapControl: false,
+          scrollwheel: true,
+          draggable: true
+        });
+
+        map.addMarker({
+          lat: lat,
+          lng: lng,
+          click: function (e) {
+            let url = 'https://www.google.com/maps/place/' + encodeURIComponent(address) + '/@' + lat + ',' + lng +'/';
+            window.open(url, '_blank')
+          },
+          title: address
+        })
+      } else {
+          let map = new L.map('map').setView([lat, lng], zoom);
+          if ( map_provider == 3 && api_key.length ) {
+            L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+              attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+              maxZoom: 18,
+              id: 'mapbox.streets',
+              accessToken: api_key
+            }).addTo(map);
+          } else {
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+              maxZoom: 19,
+              attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+            }).addTo(map);
+          }
+          let marker = L.marker([lat, lng]).addTo(map);
+          let url = lat + ',' + lng +'#map='+ zoom +'/'+ lat +'/'+ lng +'&layers=N';
+          marker.bindPopup(address + '<p><a href="https://www.openstreetmap.org/directions?engine=osrm_car&route='+ url +'">Routing via OpenStreetMap</a></p>');
+      }
+    }
+  }
+
+  /* ---------------------------------------------------------------------------
+   * On window load.
+   * --------------------------------------------------------------------------- */
+
+  $(window).on('load', function() {
+    if (window.location.hash) {
+      // When accessing homepage from another page and `#top` hash is set, show top of page (no hash).
+      if (window.location.hash == "#top") {
+        window.location.hash = ""
+      } else {
+        // If URL contains a hash, scroll to target ID taking into account responsive offset.
+        scrollToAnchor();
+      }
+    }
+
+    // Initialize Scrollspy.
+    let $body = $('body');
+    $body.scrollspy({offset: navbar_offset });
+
+    // Call `fixScrollspy` when window is resized.
+    let resizeTimer;
+    $(window).resize(function() {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(fixScrollspy, 200);
+    });
+
+    // Filter projects.
+    $('.projects-container').each(function(index, container) {
+      let $container = $(container);
+      let $section = $container.closest('section');
+      let layout = 'masonry';
+      if ($section.find('.isotope').hasClass('js-layout-row')) {
+        layout = 'fitRows';
+      }
+
+      $container.imagesLoaded(function() {
+        // Initialize Isotope after all images have loaded.
+        $container.isotope({
+          itemSelector: '.isotope-item',
+          layoutMode: layout,
+          filter: $section.find('.default-project-filter').text()
+        });
+        // Filter items when filter link is clicked.
+        $section.find('.project-filters a').click(function() {
+          let selector = $(this).attr('data-filter');
+          $container.isotope({filter: selector});
+          $(this).removeClass('active').addClass('active').siblings().removeClass('active all');
+          return false;
+        });
+      });
+    });
+
+    // Enable publication filter for publication index page.
+    if ($('.pub-filters-select')) {
+      filter_publications();
+      // Useful for changing hash manually (e.g. in development):
+      // window.addEventListener('hashchange', filter_publications, false);
+    }
+
+    // Load citation modal on 'Cite' click.
+    $('.js-cite-modal').click(function(e) {
+      e.preventDefault();
+      let filename = $(this).attr('data-filename');
+      let modal = $('#modal');
+      modal.find('.modal-body').load( filename , function( response, status, xhr ) {
+        if ( status == 'error' ) {
+          let msg = "Error: ";
+          $('#modal-error').html( msg + xhr.status + " " + xhr.statusText );
+        } else {
+          $('.js-download-cite').attr('href', filename);
+        }
+      });
+      modal.modal('show');
+    });
+
+    // Copy citation text on 'Copy' click.
+    $('.js-copy-cite').click(function(e) {
+      e.preventDefault();
+      // Get selection.
+      let range = document.createRange();
+      let code_node = document.querySelector('#modal .modal-body');
+      range.selectNode(code_node);
+      window.getSelection().addRange(range);
+      try {
+        // Execute the copy command.
+        document.execCommand('copy');
+      } catch(e) {
+        console.log('Error: citation copy failed.');
+      }
+      // Remove selection.
+      window.getSelection().removeRange(range);
+    });
+
+    // Initialise Google Maps if necessary.
+    initMap();
+  });
+
+})(jQuery);
+</script><script>hljs.initHighlightingOnLoad();</script><script>
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script><script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-120928140-1', 'auto');
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script><script>/*************************************************
+ *  Academic: the personal website framework for Hugo.
+ *  https://github.com/gcushen/hugo-academic
+ **************************************************/
+
+(function($){
+
+  /* ---------------------------------------------------------------------------
+   * Responsive scrolling for URL hashes.
+   * --------------------------------------------------------------------------- */
+
+  // Dynamically get responsive navigation bar offset.
+  let $navbar = $('.navbar-header');
+  let navbar_offset = $navbar.innerHeight();
+
+  /**
+   * Responsive hash scrolling.
+   * Check for a URL hash as an anchor.
+   * If it exists on current page, scroll to it responsively.
+   * If `target` argument omitted (e.g. after event), assume it's the window's hash.
+   */
+  function scrollToAnchor(target) {
+    // If `target` is undefined or HashChangeEvent object, set it to window's hash.
+    target = (typeof target === 'undefined' || typeof target === 'object') ? window.location.hash : target;
+    // Escape colons from IDs, such as those found in Markdown footnote links.
+    target = target.replace(/:/g, '\\:');
+
+    // If target element exists, scroll to it taking into account fixed navigation bar offset.
+    if($(target).length) {
+      $('body').addClass('scrolling');
+      $('html, body').animate({
+        scrollTop: $(target).offset().top - navbar_offset
+      }, 600, function () {
+        $('body').removeClass('scrolling');
+      });
+    }
+  }
+
+  // Make Scrollspy responsive.
+  function fixScrollspy() {
+    let $body = $('body');
+    let data = $body.data('bs.scrollspy');
+    if (data) {
+      data.options.offset = navbar_offset;
+      $body.data('bs.scrollspy', data);
+      $body.scrollspy('refresh');
+    }
+  }
+
+  // Check for hash change event and fix responsive offset for hash links (e.g. Markdown footnotes).
+  window.addEventListener("hashchange", scrollToAnchor);
+
+  /* ---------------------------------------------------------------------------
+   * Add smooth scrolling to all links inside the main navbar.
+   * --------------------------------------------------------------------------- */
+
+  $('#navbar-main li.nav-item a').on('click', function(event) {
+    // Store requested URL hash.
+    let hash = this.hash;
+
+    // If we are on the homepage and the navigation bar link is to a homepage section.
+    if ( hash && $(hash).length && ($("#homepage").length > 0)) {
+      // Prevent default click behavior.
+      event.preventDefault();
+
+      // Use jQuery's animate() method for smooth page scrolling.
+      // The numerical parameter specifies the time (ms) taken to scroll to the specified hash.
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top - navbar_offset
+      }, 800);
+    }
+  });
+
+  /* ---------------------------------------------------------------------------
+   * Smooth scrolling for Back To Top link.
+   * --------------------------------------------------------------------------- */
+
+  $('#back_to_top').on('click', function(event) {
+    event.preventDefault();
+    $('html, body').animate({
+      'scrollTop': 0
+    }, 800, function() {
+      window.location.hash = "";
+    });
+  });
+
+  /* ---------------------------------------------------------------------------
+   * Hide mobile collapsable menu on clicking a link.
+   * --------------------------------------------------------------------------- */
+
+  $(document).on('click', '.navbar-collapse.in', function(e) {
+    //get the <a> element that was clicked, even if the <span> element that is inside the <a> element is e.target
+    let targetElement = $(e.target).is('a') ? $(e.target) : $(e.target).parent();
+
+    if (targetElement.is('a') && targetElement.attr('class') != 'dropdown-toggle') {
+      $(this).collapse('hide');
+    }
+  });
+
+  /* ---------------------------------------------------------------------------
+   * Filter publications.
+   * --------------------------------------------------------------------------- */
+
+  let $grid_pubs = $('#container-publications');
+  $grid_pubs.isotope({
+    itemSelector: '.isotope-item',
+    percentPosition: true,
+    masonry: {
+      // Use Bootstrap compatible grid layout.
+      columnWidth: '.grid-sizer'
+    }
+  });
+
+  // Active publication filters.
+  let pubFilters = {};
+
+  // Flatten object by concatenating values.
+  function concatValues( obj ) {
+    let value = '';
+    for ( let prop in obj ) {
+      value += obj[ prop ];
+    }
+    return value;
+  }
+
+  $('.pub-filters').on( 'change', function() {
+    let $this = $(this);
+
+    // Get group key.
+    let filterGroup = $this[0].getAttribute('data-filter-group');
+
+    // Set filter for group.
+    pubFilters[ filterGroup ] = this.value;
+
+    // Combine filters.
+    let filterValues = concatValues( pubFilters );
+
+    // Activate filters.
+    $grid_pubs.isotope({ filter: filterValues });
+
+    // If filtering by publication type, update the URL hash to enable direct linking to results.
+    if (filterGroup == "pubtype") {
+      // Set hash URL to current filter.
+      let url = $(this).val();
+      if (url.substr(0, 9) == '.pubtype-') {
+        window.location.hash = url.substr(9);
+      } else {
+        window.location.hash = '';
+      }
+    }
+  });
+
+  // Filter publications according to hash in URL.
+  function filter_publications() {
+    let urlHash = window.location.hash.replace('#','');
+    let filterValue = '*';
+
+    // Check if hash is numeric.
+    if (urlHash != '' && !isNaN(urlHash)) {
+      filterValue = '.pubtype-' + urlHash;
+    }
+
+    // Set filter.
+    let filterGroup = 'pubtype';
+    pubFilters[ filterGroup ] = filterValue;
+    let filterValues = concatValues( pubFilters );
+
+    // Activate filters.
+    $grid_pubs.isotope({ filter: filterValues });
+
+    // Set selected option.
+    $('.pubtype-select').val(filterValue);
+  }
+
+  /* ---------------------------------------------------------------------------
+  * Google Maps or OpenStreetMap via Leaflet.
+  * --------------------------------------------------------------------------- */
+
+  function initMap () {
+    if ($('#map').length) {
+      let map_provider = $('#map-provider').val();
+      let lat = $('#map-lat').val();
+      let lng = $('#map-lng').val();
+      let zoom = parseInt($('#map-zoom').val());
+      let address = $('#map-dir').val();
+      let api_key = $('#map-api-key').val();
+      
+      if ( map_provider == 1 ) {
+        let map = new GMaps({
+          div: '#map',
+          lat: lat,
+          lng: lng,
+          zoom: zoom,
+          zoomControl: true,
+          zoomControlOpt: {
+            style: 'SMALL',
+            position: 'TOP_LEFT'
+          },
+          panControl: false,
+          streetViewControl: false,
+          mapTypeControl: false,
+          overviewMapControl: false,
+          scrollwheel: true,
+          draggable: true
+        });
+
+        map.addMarker({
+          lat: lat,
+          lng: lng,
+          click: function (e) {
+            let url = 'https://www.google.com/maps/place/' + encodeURIComponent(address) + '/@' + lat + ',' + lng +'/';
+            window.open(url, '_blank')
+          },
+          title: address
+        })
+      } else {
+          let map = new L.map('map').setView([lat, lng], zoom);
+          if ( map_provider == 3 && api_key.length ) {
+            L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+              attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+              maxZoom: 18,
+              id: 'mapbox.streets',
+              accessToken: api_key
+            }).addTo(map);
+          } else {
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+              maxZoom: 19,
+              attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+            }).addTo(map);
+          }
+          let marker = L.marker([lat, lng]).addTo(map);
+          let url = lat + ',' + lng +'#map='+ zoom +'/'+ lat +'/'+ lng +'&layers=N';
+          marker.bindPopup(address + '<p><a href="https://www.openstreetmap.org/directions?engine=osrm_car&route='+ url +'">Routing via OpenStreetMap</a></p>');
+      }
+    }
+  }
+
+  /* ---------------------------------------------------------------------------
+   * On window load.
+   * --------------------------------------------------------------------------- */
+
+  $(window).on('load', function() {
+    if (window.location.hash) {
+      // When accessing homepage from another page and `#top` hash is set, show top of page (no hash).
+      if (window.location.hash == "#top") {
+        window.location.hash = ""
+      } else {
+        // If URL contains a hash, scroll to target ID taking into account responsive offset.
+        scrollToAnchor();
+      }
+    }
+
+    // Initialize Scrollspy.
+    let $body = $('body');
+    $body.scrollspy({offset: navbar_offset });
+
+    // Call `fixScrollspy` when window is resized.
+    let resizeTimer;
+    $(window).resize(function() {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(fixScrollspy, 200);
+    });
+
+    // Filter projects.
+    $('.projects-container').each(function(index, container) {
+      let $container = $(container);
+      let $section = $container.closest('section');
+      let layout = 'masonry';
+      if ($section.find('.isotope').hasClass('js-layout-row')) {
+        layout = 'fitRows';
+      }
+
+      $container.imagesLoaded(function() {
+        // Initialize Isotope after all images have loaded.
+        $container.isotope({
+          itemSelector: '.isotope-item',
+          layoutMode: layout,
+          filter: $section.find('.default-project-filter').text()
+        });
+        // Filter items when filter link is clicked.
+        $section.find('.project-filters a').click(function() {
+          let selector = $(this).attr('data-filter');
+          $container.isotope({filter: selector});
+          $(this).removeClass('active').addClass('active').siblings().removeClass('active all');
+          return false;
+        });
+      });
+    });
+
+    // Enable publication filter for publication index page.
+    if ($('.pub-filters-select')) {
+      filter_publications();
+      // Useful for changing hash manually (e.g. in development):
+      // window.addEventListener('hashchange', filter_publications, false);
+    }
+
+    // Load citation modal on 'Cite' click.
+    $('.js-cite-modal').click(function(e) {
+      e.preventDefault();
+      let filename = $(this).attr('data-filename');
+      let modal = $('#modal');
+      modal.find('.modal-body').load( filename , function( response, status, xhr ) {
+        if ( status == 'error' ) {
+          let msg = "Error: ";
+          $('#modal-error').html( msg + xhr.status + " " + xhr.statusText );
+        } else {
+          $('.js-download-cite').attr('href', filename);
+        }
+      });
+      modal.modal('show');
+    });
+
+    // Copy citation text on 'Copy' click.
+    $('.js-copy-cite').click(function(e) {
+      e.preventDefault();
+      // Get selection.
+      let range = document.createRange();
+      let code_node = document.querySelector('#modal .modal-body');
+      range.selectNode(code_node);
+      window.getSelection().addRange(range);
+      try {
+        // Execute the copy command.
+        document.execCommand('copy');
+      } catch(e) {
+        console.log('Error: citation copy failed.');
+      }
+      // Remove selection.
+      window.getSelection().removeRange(range);
+    });
+
+    // Initialise Google Maps if necessary.
+    initMap();
+  });
+
+})(jQuery);
+</script><script>hljs.initHighlightingOnLoad();</script><script>
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+<script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-120928140-1', 'auto');
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script><script>/*************************************************
+ *  Academic: the personal website framework for Hugo.
+ *  https://github.com/gcushen/hugo-academic
+ **************************************************/
+
+(function($){
+
+  /* ---------------------------------------------------------------------------
+   * Responsive scrolling for URL hashes.
+   * --------------------------------------------------------------------------- */
+
+  // Dynamically get responsive navigation bar offset.
+  let $navbar = $('.navbar-header');
+  let navbar_offset = $navbar.innerHeight();
+
+  /**
+   * Responsive hash scrolling.
+   * Check for a URL hash as an anchor.
+   * If it exists on current page, scroll to it responsively.
+   * If `target` argument omitted (e.g. after event), assume it's the window's hash.
+   */
+  function scrollToAnchor(target) {
+    // If `target` is undefined or HashChangeEvent object, set it to window's hash.
+    target = (typeof target === 'undefined' || typeof target === 'object') ? window.location.hash : target;
+    // Escape colons from IDs, such as those found in Markdown footnote links.
+    target = target.replace(/:/g, '\\:');
+
+    // If target element exists, scroll to it taking into account fixed navigation bar offset.
+    if($(target).length) {
+      $('body').addClass('scrolling');
+      $('html, body').animate({
+        scrollTop: $(target).offset().top - navbar_offset
+      }, 600, function () {
+        $('body').removeClass('scrolling');
+      });
+    }
+  }
+
+  // Make Scrollspy responsive.
+  function fixScrollspy() {
+    let $body = $('body');
+    let data = $body.data('bs.scrollspy');
+    if (data) {
+      data.options.offset = navbar_offset;
+      $body.data('bs.scrollspy', data);
+      $body.scrollspy('refresh');
+    }
+  }
+
+  // Check for hash change event and fix responsive offset for hash links (e.g. Markdown footnotes).
+  window.addEventListener("hashchange", scrollToAnchor);
+
+  /* ---------------------------------------------------------------------------
+   * Add smooth scrolling to all links inside the main navbar.
+   * --------------------------------------------------------------------------- */
+
+  $('#navbar-main li.nav-item a').on('click', function(event) {
+    // Store requested URL hash.
+    let hash = this.hash;
+
+    // If we are on the homepage and the navigation bar link is to a homepage section.
+    if ( hash && $(hash).length && ($("#homepage").length > 0)) {
+      // Prevent default click behavior.
+      event.preventDefault();
+
+      // Use jQuery's animate() method for smooth page scrolling.
+      // The numerical parameter specifies the time (ms) taken to scroll to the specified hash.
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top - navbar_offset
+      }, 800);
+    }
+  });
+
+  /* ---------------------------------------------------------------------------
+   * Smooth scrolling for Back To Top link.
+   * --------------------------------------------------------------------------- */
+
+  $('#back_to_top').on('click', function(event) {
+    event.preventDefault();
+    $('html, body').animate({
+      'scrollTop': 0
+    }, 800, function() {
+      window.location.hash = "";
+    });
+  });
+
+  /* ---------------------------------------------------------------------------
+   * Hide mobile collapsable menu on clicking a link.
+   * --------------------------------------------------------------------------- */
+
+  $(document).on('click', '.navbar-collapse.in', function(e) {
+    //get the <a> element that was clicked, even if the <span> element that is inside the <a> element is e.target
+    let targetElement = $(e.target).is('a') ? $(e.target) : $(e.target).parent();
+
+    if (targetElement.is('a') && targetElement.attr('class') != 'dropdown-toggle') {
+      $(this).collapse('hide');
+    }
+  });
+
+  /* ---------------------------------------------------------------------------
+   * Filter publications.
+   * --------------------------------------------------------------------------- */
+
+  let $grid_pubs = $('#container-publications');
+  $grid_pubs.isotope({
+    itemSelector: '.isotope-item',
+    percentPosition: true,
+    masonry: {
+      // Use Bootstrap compatible grid layout.
+      columnWidth: '.grid-sizer'
+    }
+  });
+
+  // Active publication filters.
+  let pubFilters = {};
+
+  // Flatten object by concatenating values.
+  function concatValues( obj ) {
+    let value = '';
+    for ( let prop in obj ) {
+      value += obj[ prop ];
+    }
+    return value;
+  }
+
+  $('.pub-filters').on( 'change', function() {
+    let $this = $(this);
+
+    // Get group key.
+    let filterGroup = $this[0].getAttribute('data-filter-group');
+
+    // Set filter for group.
+    pubFilters[ filterGroup ] = this.value;
+
+    // Combine filters.
+    let filterValues = concatValues( pubFilters );
+
+    // Activate filters.
+    $grid_pubs.isotope({ filter: filterValues });
+
+    // If filtering by publication type, update the URL hash to enable direct linking to results.
+    if (filterGroup == "pubtype") {
+      // Set hash URL to current filter.
+      let url = $(this).val();
+      if (url.substr(0, 9) == '.pubtype-') {
+        window.location.hash = url.substr(9);
+      } else {
+        window.location.hash = '';
+      }
+    }
+  });
+
+  // Filter publications according to hash in URL.
+  function filter_publications() {
+    let urlHash = window.location.hash.replace('#','');
+    let filterValue = '*';
+
+    // Check if hash is numeric.
+    if (urlHash != '' && !isNaN(urlHash)) {
+      filterValue = '.pubtype-' + urlHash;
+    }
+
+    // Set filter.
+    let filterGroup = 'pubtype';
+    pubFilters[ filterGroup ] = filterValue;
+    let filterValues = concatValues( pubFilters );
+
+    // Activate filters.
+    $grid_pubs.isotope({ filter: filterValues });
+
+    // Set selected option.
+    $('.pubtype-select').val(filterValue);
+  }
+
+  /* ---------------------------------------------------------------------------
+  * Google Maps or OpenStreetMap via Leaflet.
+  * --------------------------------------------------------------------------- */
+
+  function initMap () {
+    if ($('#map').length) {
+      let map_provider = $('#map-provider').val();
+      let lat = $('#map-lat').val();
+      let lng = $('#map-lng').val();
+      let zoom = parseInt($('#map-zoom').val());
+      let address = $('#map-dir').val();
+      let api_key = $('#map-api-key').val();
+      
+      if ( map_provider == 1 ) {
+        let map = new GMaps({
+          div: '#map',
+          lat: lat,
+          lng: lng,
+          zoom: zoom,
+          zoomControl: true,
+          zoomControlOpt: {
+            style: 'SMALL',
+            position: 'TOP_LEFT'
+          },
+          panControl: false,
+          streetViewControl: false,
+          mapTypeControl: false,
+          overviewMapControl: false,
+          scrollwheel: true,
+          draggable: true
+        });
+
+        map.addMarker({
+          lat: lat,
+          lng: lng,
+          click: function (e) {
+            let url = 'https://www.google.com/maps/place/' + encodeURIComponent(address) + '/@' + lat + ',' + lng +'/';
+            window.open(url, '_blank')
+          },
+          title: address
+        })
+      } else {
+          let map = new L.map('map').setView([lat, lng], zoom);
+          if ( map_provider == 3 && api_key.length ) {
+            L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+              attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+              maxZoom: 18,
+              id: 'mapbox.streets',
+              accessToken: api_key
+            }).addTo(map);
+          } else {
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+              maxZoom: 19,
+              attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+            }).addTo(map);
+          }
+          let marker = L.marker([lat, lng]).addTo(map);
+          let url = lat + ',' + lng +'#map='+ zoom +'/'+ lat +'/'+ lng +'&layers=N';
+          marker.bindPopup(address + '<p><a href="https://www.openstreetmap.org/directions?engine=osrm_car&route='+ url +'">Routing via OpenStreetMap</a></p>');
+      }
+    }
+  }
+
+  /* ---------------------------------------------------------------------------
+   * On window load.
+   * --------------------------------------------------------------------------- */
+
+  $(window).on('load', function() {
+    if (window.location.hash) {
+      // When accessing homepage from another page and `#top` hash is set, show top of page (no hash).
+      if (window.location.hash == "#top") {
+        window.location.hash = ""
+      } else {
+        // If URL contains a hash, scroll to target ID taking into account responsive offset.
+        scrollToAnchor();
+      }
+    }
+
+    // Initialize Scrollspy.
+    let $body = $('body');
+    $body.scrollspy({offset: navbar_offset });
+
+    // Call `fixScrollspy` when window is resized.
+    let resizeTimer;
+    $(window).resize(function() {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(fixScrollspy, 200);
+    });
+
+    // Filter projects.
+    $('.projects-container').each(function(index, container) {
+      let $container = $(container);
+      let $section = $container.closest('section');
+      let layout = 'masonry';
+      if ($section.find('.isotope').hasClass('js-layout-row')) {
+        layout = 'fitRows';
+      }
+
+      $container.imagesLoaded(function() {
+        // Initialize Isotope after all images have loaded.
+        $container.isotope({
+          itemSelector: '.isotope-item',
+          layoutMode: layout,
+          filter: $section.find('.default-project-filter').text()
+        });
+        // Filter items when filter link is clicked.
+        $section.find('.project-filters a').click(function() {
+          let selector = $(this).attr('data-filter');
+          $container.isotope({filter: selector});
+          $(this).removeClass('active').addClass('active').siblings().removeClass('active all');
+          return false;
+        });
+      });
+    });
+
+    // Enable publication filter for publication index page.
+    if ($('.pub-filters-select')) {
+      filter_publications();
+      // Useful for changing hash manually (e.g. in development):
+      // window.addEventListener('hashchange', filter_publications, false);
+    }
+
+    // Load citation modal on 'Cite' click.
+    $('.js-cite-modal').click(function(e) {
+      e.preventDefault();
+      let filename = $(this).attr('data-filename');
+      let modal = $('#modal');
+      modal.find('.modal-body').load( filename , function( response, status, xhr ) {
+        if ( status == 'error' ) {
+          let msg = "Error: ";
+          $('#modal-error').html( msg + xhr.status + " " + xhr.statusText );
+        } else {
+          $('.js-download-cite').attr('href', filename);
+        }
+      });
+      modal.modal('show');
+    });
+
+    // Copy citation text on 'Copy' click.
+    $('.js-copy-cite').click(function(e) {
+      e.preventDefault();
+      // Get selection.
+      let range = document.createRange();
+      let code_node = document.querySelector('#modal .modal-body');
+      range.selectNode(code_node);
+      window.getSelection().addRange(range);
+      try {
+        // Execute the copy command.
+        document.execCommand('copy');
+      } catch(e) {
+        console.log('Error: citation copy failed.');
+      }
+      // Remove selection.
+      window.getSelection().removeRange(range);
+    });
+
+    // Initialise Google Maps if necessary.
+    initMap();
+  });
+
+})(jQuery);
+</script><script>hljs.initHighlightingOnLoad();</script><script>
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script><script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-120928140-1', 'auto');
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script><script>/*************************************************
+ *  Academic: the personal website framework for Hugo.
+ *  https://github.com/gcushen/hugo-academic
+ **************************************************/
+
+(function($){
+
+  /* ---------------------------------------------------------------------------
+   * Responsive scrolling for URL hashes.
+   * --------------------------------------------------------------------------- */
+
+  // Dynamically get responsive navigation bar offset.
+  let $navbar = $('.navbar-header');
+  let navbar_offset = $navbar.innerHeight();
+
+  /**
+   * Responsive hash scrolling.
+   * Check for a URL hash as an anchor.
+   * If it exists on current page, scroll to it responsively.
+   * If `target` argument omitted (e.g. after event), assume it's the window's hash.
+   */
+  function scrollToAnchor(target) {
+    // If `target` is undefined or HashChangeEvent object, set it to window's hash.
+    target = (typeof target === 'undefined' || typeof target === 'object') ? window.location.hash : target;
+    // Escape colons from IDs, such as those found in Markdown footnote links.
+    target = target.replace(/:/g, '\\:');
+
+    // If target element exists, scroll to it taking into account fixed navigation bar offset.
+    if($(target).length) {
+      $('body').addClass('scrolling');
+      $('html, body').animate({
+        scrollTop: $(target).offset().top - navbar_offset
+      }, 600, function () {
+        $('body').removeClass('scrolling');
+      });
+    }
+  }
+
+  // Make Scrollspy responsive.
+  function fixScrollspy() {
+    let $body = $('body');
+    let data = $body.data('bs.scrollspy');
+    if (data) {
+      data.options.offset = navbar_offset;
+      $body.data('bs.scrollspy', data);
+      $body.scrollspy('refresh');
+    }
+  }
+
+  // Check for hash change event and fix responsive offset for hash links (e.g. Markdown footnotes).
+  window.addEventListener("hashchange", scrollToAnchor);
+
+  /* ---------------------------------------------------------------------------
+   * Add smooth scrolling to all links inside the main navbar.
+   * --------------------------------------------------------------------------- */
+
+  $('#navbar-main li.nav-item a').on('click', function(event) {
+    // Store requested URL hash.
+    let hash = this.hash;
+
+    // If we are on the homepage and the navigation bar link is to a homepage section.
+    if ( hash && $(hash).length && ($("#homepage").length > 0)) {
+      // Prevent default click behavior.
+      event.preventDefault();
+
+      // Use jQuery's animate() method for smooth page scrolling.
+      // The numerical parameter specifies the time (ms) taken to scroll to the specified hash.
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top - navbar_offset
+      }, 800);
+    }
+  });
+
+  /* ---------------------------------------------------------------------------
+   * Smooth scrolling for Back To Top link.
+   * --------------------------------------------------------------------------- */
+
+  $('#back_to_top').on('click', function(event) {
+    event.preventDefault();
+    $('html, body').animate({
+      'scrollTop': 0
+    }, 800, function() {
+      window.location.hash = "";
+    });
+  });
+
+  /* ---------------------------------------------------------------------------
+   * Hide mobile collapsable menu on clicking a link.
+   * --------------------------------------------------------------------------- */
+
+  $(document).on('click', '.navbar-collapse.in', function(e) {
+    //get the <a> element that was clicked, even if the <span> element that is inside the <a> element is e.target
+    let targetElement = $(e.target).is('a') ? $(e.target) : $(e.target).parent();
+
+    if (targetElement.is('a') && targetElement.attr('class') != 'dropdown-toggle') {
+      $(this).collapse('hide');
+    }
+  });
+
+  /* ---------------------------------------------------------------------------
+   * Filter publications.
+   * --------------------------------------------------------------------------- */
+
+  let $grid_pubs = $('#container-publications');
+  $grid_pubs.isotope({
+    itemSelector: '.isotope-item',
+    percentPosition: true,
+    masonry: {
+      // Use Bootstrap compatible grid layout.
+      columnWidth: '.grid-sizer'
+    }
+  });
+
+  // Active publication filters.
+  let pubFilters = {};
+
+  // Flatten object by concatenating values.
+  function concatValues( obj ) {
+    let value = '';
+    for ( let prop in obj ) {
+      value += obj[ prop ];
+    }
+    return value;
+  }
+
+  $('.pub-filters').on( 'change', function() {
+    let $this = $(this);
+
+    // Get group key.
+    let filterGroup = $this[0].getAttribute('data-filter-group');
+
+    // Set filter for group.
+    pubFilters[ filterGroup ] = this.value;
+
+    // Combine filters.
+    let filterValues = concatValues( pubFilters );
+
+    // Activate filters.
+    $grid_pubs.isotope({ filter: filterValues });
+
+    // If filtering by publication type, update the URL hash to enable direct linking to results.
+    if (filterGroup == "pubtype") {
+      // Set hash URL to current filter.
+      let url = $(this).val();
+      if (url.substr(0, 9) == '.pubtype-') {
+        window.location.hash = url.substr(9);
+      } else {
+        window.location.hash = '';
+      }
+    }
+  });
+
+  // Filter publications according to hash in URL.
+  function filter_publications() {
+    let urlHash = window.location.hash.replace('#','');
+    let filterValue = '*';
+
+    // Check if hash is numeric.
+    if (urlHash != '' && !isNaN(urlHash)) {
+      filterValue = '.pubtype-' + urlHash;
+    }
+
+    // Set filter.
+    let filterGroup = 'pubtype';
+    pubFilters[ filterGroup ] = filterValue;
+    let filterValues = concatValues( pubFilters );
+
+    // Activate filters.
+    $grid_pubs.isotope({ filter: filterValues });
+
+    // Set selected option.
+    $('.pubtype-select').val(filterValue);
+  }
+
+  /* ---------------------------------------------------------------------------
+  * Google Maps or OpenStreetMap via Leaflet.
+  * --------------------------------------------------------------------------- */
+
+  function initMap () {
+    if ($('#map').length) {
+      let map_provider = $('#map-provider').val();
+      let lat = $('#map-lat').val();
+      let lng = $('#map-lng').val();
+      let zoom = parseInt($('#map-zoom').val());
+      let address = $('#map-dir').val();
+      let api_key = $('#map-api-key').val();
+      
+      if ( map_provider == 1 ) {
+        let map = new GMaps({
+          div: '#map',
+          lat: lat,
+          lng: lng,
+          zoom: zoom,
+          zoomControl: true,
+          zoomControlOpt: {
+            style: 'SMALL',
+            position: 'TOP_LEFT'
+          },
+          panControl: false,
+          streetViewControl: false,
+          mapTypeControl: false,
+          overviewMapControl: false,
+          scrollwheel: true,
+          draggable: true
+        });
+
+        map.addMarker({
+          lat: lat,
+          lng: lng,
+          click: function (e) {
+            let url = 'https://www.google.com/maps/place/' + encodeURIComponent(address) + '/@' + lat + ',' + lng +'/';
+            window.open(url, '_blank')
+          },
+          title: address
+        })
+      } else {
+          let map = new L.map('map').setView([lat, lng], zoom);
+          if ( map_provider == 3 && api_key.length ) {
+            L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+              attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+              maxZoom: 18,
+              id: 'mapbox.streets',
+              accessToken: api_key
+            }).addTo(map);
+          } else {
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+              maxZoom: 19,
+              attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+            }).addTo(map);
+          }
+          let marker = L.marker([lat, lng]).addTo(map);
+          let url = lat + ',' + lng +'#map='+ zoom +'/'+ lat +'/'+ lng +'&layers=N';
+          marker.bindPopup(address + '<p><a href="https://www.openstreetmap.org/directions?engine=osrm_car&route='+ url +'">Routing via OpenStreetMap</a></p>');
+      }
+    }
+  }
+
+  /* ---------------------------------------------------------------------------
+   * On window load.
+   * --------------------------------------------------------------------------- */
+
+  $(window).on('load', function() {
+    if (window.location.hash) {
+      // When accessing homepage from another page and `#top` hash is set, show top of page (no hash).
+      if (window.location.hash == "#top") {
+        window.location.hash = ""
+      } else {
+        // If URL contains a hash, scroll to target ID taking into account responsive offset.
+        scrollToAnchor();
+      }
+    }
+
+    // Initialize Scrollspy.
+    let $body = $('body');
+    $body.scrollspy({offset: navbar_offset });
+
+    // Call `fixScrollspy` when window is resized.
+    let resizeTimer;
+    $(window).resize(function() {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(fixScrollspy, 200);
+    });
+
+    // Filter projects.
+    $('.projects-container').each(function(index, container) {
+      let $container = $(container);
+      let $section = $container.closest('section');
+      let layout = 'masonry';
+      if ($section.find('.isotope').hasClass('js-layout-row')) {
+        layout = 'fitRows';
+      }
+
+      $container.imagesLoaded(function() {
+        // Initialize Isotope after all images have loaded.
+        $container.isotope({
+          itemSelector: '.isotope-item',
+          layoutMode: layout,
+          filter: $section.find('.default-project-filter').text()
+        });
+        // Filter items when filter link is clicked.
+        $section.find('.project-filters a').click(function() {
+          let selector = $(this).attr('data-filter');
+          $container.isotope({filter: selector});
+          $(this).removeClass('active').addClass('active').siblings().removeClass('active all');
+          return false;
+        });
+      });
+    });
+
+    // Enable publication filter for publication index page.
+    if ($('.pub-filters-select')) {
+      filter_publications();
+      // Useful for changing hash manually (e.g. in development):
+      // window.addEventListener('hashchange', filter_publications, false);
+    }
+
+    // Load citation modal on 'Cite' click.
+    $('.js-cite-modal').click(function(e) {
+      e.preventDefault();
+      let filename = $(this).attr('data-filename');
+      let modal = $('#modal');
+      modal.find('.modal-body').load( filename , function( response, status, xhr ) {
+        if ( status == 'error' ) {
+          let msg = "Error: ";
+          $('#modal-error').html( msg + xhr.status + " " + xhr.statusText );
+        } else {
+          $('.js-download-cite').attr('href', filename);
+        }
+      });
+      modal.modal('show');
+    });
+
+    // Copy citation text on 'Copy' click.
+    $('.js-copy-cite').click(function(e) {
+      e.preventDefault();
+      // Get selection.
+      let range = document.createRange();
+      let code_node = document.querySelector('#modal .modal-body');
+      range.selectNode(code_node);
+      window.getSelection().addRange(range);
+      try {
+        // Execute the copy command.
+        document.execCommand('copy');
+      } catch(e) {
+        console.log('Error: citation copy failed.');
+      }
+      // Remove selection.
+      window.getSelection().removeRange(range);
+    });
+
+    // Initialise Google Maps if necessary.
+    initMap();
+  });
+
+})(jQuery);
+</script><script>hljs.initHighlightingOnLoad();</script><script>
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script><script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-120928140-1', 'auto');
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script><script>/*************************************************
+ *  Academic: the personal website framework for Hugo.
+ *  https://github.com/gcushen/hugo-academic
+ **************************************************/
+
+(function($){
+
+  /* ---------------------------------------------------------------------------
+   * Responsive scrolling for URL hashes.
+   * --------------------------------------------------------------------------- */
+
+  // Dynamically get responsive navigation bar offset.
+  let $navbar = $('.navbar-header');
+  let navbar_offset = $navbar.innerHeight();
+
+  /**
+   * Responsive hash scrolling.
+   * Check for a URL hash as an anchor.
+   * If it exists on current page, scroll to it responsively.
+   * If `target` argument omitted (e.g. after event), assume it's the window's hash.
+   */
+  function scrollToAnchor(target) {
+    // If `target` is undefined or HashChangeEvent object, set it to window's hash.
+    target = (typeof target === 'undefined' || typeof target === 'object') ? window.location.hash : target;
+    // Escape colons from IDs, such as those found in Markdown footnote links.
+    target = target.replace(/:/g, '\\:');
+
+    // If target element exists, scroll to it taking into account fixed navigation bar offset.
+    if($(target).length) {
+      $('body').addClass('scrolling');
+      $('html, body').animate({
+        scrollTop: $(target).offset().top - navbar_offset
+      }, 600, function () {
+        $('body').removeClass('scrolling');
+      });
+    }
+  }
+
+  // Make Scrollspy responsive.
+  function fixScrollspy() {
+    let $body = $('body');
+    let data = $body.data('bs.scrollspy');
+    if (data) {
+      data.options.offset = navbar_offset;
+      $body.data('bs.scrollspy', data);
+      $body.scrollspy('refresh');
+    }
+  }
+
+  // Check for hash change event and fix responsive offset for hash links (e.g. Markdown footnotes).
+  window.addEventListener("hashchange", scrollToAnchor);
+
+  /* ---------------------------------------------------------------------------
+   * Add smooth scrolling to all links inside the main navbar.
+   * --------------------------------------------------------------------------- */
+
+  $('#navbar-main li.nav-item a').on('click', function(event) {
+    // Store requested URL hash.
+    let hash = this.hash;
+
+    // If we are on the homepage and the navigation bar link is to a homepage section.
+    if ( hash && $(hash).length && ($("#homepage").length > 0)) {
+      // Prevent default click behavior.
+      event.preventDefault();
+
+      // Use jQuery's animate() method for smooth page scrolling.
+      // The numerical parameter specifies the time (ms) taken to scroll to the specified hash.
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top - navbar_offset
+      }, 800);
+    }
+  });
+
+  /* ---------------------------------------------------------------------------
+   * Smooth scrolling for Back To Top link.
+   * --------------------------------------------------------------------------- */
+
+  $('#back_to_top').on('click', function(event) {
+    event.preventDefault();
+    $('html, body').animate({
+      'scrollTop': 0
+    }, 800, function() {
+      window.location.hash = "";
+    });
+  });
+
+  /* ---------------------------------------------------------------------------
+   * Hide mobile collapsable menu on clicking a link.
+   * --------------------------------------------------------------------------- */
+
+  $(document).on('click', '.navbar-collapse.in', function(e) {
+    //get the <a> element that was clicked, even if the <span> element that is inside the <a> element is e.target
+    let targetElement = $(e.target).is('a') ? $(e.target) : $(e.target).parent();
+
+    if (targetElement.is('a') && targetElement.attr('class') != 'dropdown-toggle') {
+      $(this).collapse('hide');
+    }
+  });
+
+  /* ---------------------------------------------------------------------------
+   * Filter publications.
+   * --------------------------------------------------------------------------- */
+
+  let $grid_pubs = $('#container-publications');
+  $grid_pubs.isotope({
+    itemSelector: '.isotope-item',
+    percentPosition: true,
+    masonry: {
+      // Use Bootstrap compatible grid layout.
+      columnWidth: '.grid-sizer'
+    }
+  });
+
+  // Active publication filters.
+  let pubFilters = {};
+
+  // Flatten object by concatenating values.
+  function concatValues( obj ) {
+    let value = '';
+    for ( let prop in obj ) {
+      value += obj[ prop ];
+    }
+    return value;
+  }
+
+  $('.pub-filters').on( 'change', function() {
+    let $this = $(this);
+
+    // Get group key.
+    let filterGroup = $this[0].getAttribute('data-filter-group');
+
+    // Set filter for group.
+    pubFilters[ filterGroup ] = this.value;
+
+    // Combine filters.
+    let filterValues = concatValues( pubFilters );
+
+    // Activate filters.
+    $grid_pubs.isotope({ filter: filterValues });
+
+    // If filtering by publication type, update the URL hash to enable direct linking to results.
+    if (filterGroup == "pubtype") {
+      // Set hash URL to current filter.
+      let url = $(this).val();
+      if (url.substr(0, 9) == '.pubtype-') {
+        window.location.hash = url.substr(9);
+      } else {
+        window.location.hash = '';
+      }
+    }
+  });
+
+  // Filter publications according to hash in URL.
+  function filter_publications() {
+    let urlHash = window.location.hash.replace('#','');
+    let filterValue = '*';
+
+    // Check if hash is numeric.
+    if (urlHash != '' && !isNaN(urlHash)) {
+      filterValue = '.pubtype-' + urlHash;
+    }
+
+    // Set filter.
+    let filterGroup = 'pubtype';
+    pubFilters[ filterGroup ] = filterValue;
+    let filterValues = concatValues( pubFilters );
+
+    // Activate filters.
+    $grid_pubs.isotope({ filter: filterValues });
+
+    // Set selected option.
+    $('.pubtype-select').val(filterValue);
+  }
+
+  /* ---------------------------------------------------------------------------
+  * Google Maps or OpenStreetMap via Leaflet.
+  * --------------------------------------------------------------------------- */
+
+  function initMap () {
+    if ($('#map').length) {
+      let map_provider = $('#map-provider').val();
+      let lat = $('#map-lat').val();
+      let lng = $('#map-lng').val();
+      let zoom = parseInt($('#map-zoom').val());
+      let address = $('#map-dir').val();
+      let api_key = $('#map-api-key').val();
+      
+      if ( map_provider == 1 ) {
+        let map = new GMaps({
+          div: '#map',
+          lat: lat,
+          lng: lng,
+          zoom: zoom,
+          zoomControl: true,
+          zoomControlOpt: {
+            style: 'SMALL',
+            position: 'TOP_LEFT'
+          },
+          panControl: false,
+          streetViewControl: false,
+          mapTypeControl: false,
+          overviewMapControl: false,
+          scrollwheel: true,
+          draggable: true
+        });
+
+        map.addMarker({
+          lat: lat,
+          lng: lng,
+          click: function (e) {
+            let url = 'https://www.google.com/maps/place/' + encodeURIComponent(address) + '/@' + lat + ',' + lng +'/';
+            window.open(url, '_blank')
+          },
+          title: address
+        })
+      } else {
+          let map = new L.map('map').setView([lat, lng], zoom);
+          if ( map_provider == 3 && api_key.length ) {
+            L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+              attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+              maxZoom: 18,
+              id: 'mapbox.streets',
+              accessToken: api_key
+            }).addTo(map);
+          } else {
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+              maxZoom: 19,
+              attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+            }).addTo(map);
+          }
+          let marker = L.marker([lat, lng]).addTo(map);
+          let url = lat + ',' + lng +'#map='+ zoom +'/'+ lat +'/'+ lng +'&layers=N';
+          marker.bindPopup(address + '<p><a href="https://www.openstreetmap.org/directions?engine=osrm_car&route='+ url +'">Routing via OpenStreetMap</a></p>');
+      }
+    }
+  }
+
+  /* ---------------------------------------------------------------------------
+   * On window load.
+   * --------------------------------------------------------------------------- */
+
+  $(window).on('load', function() {
+    if (window.location.hash) {
+      // When accessing homepage from another page and `#top` hash is set, show top of page (no hash).
+      if (window.location.hash == "#top") {
+        window.location.hash = ""
+      } else {
+        // If URL contains a hash, scroll to target ID taking into account responsive offset.
+        scrollToAnchor();
+      }
+    }
+
+    // Initialize Scrollspy.
+    let $body = $('body');
+    $body.scrollspy({offset: navbar_offset });
+
+    // Call `fixScrollspy` when window is resized.
+    let resizeTimer;
+    $(window).resize(function() {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(fixScrollspy, 200);
+    });
+
+    // Filter projects.
+    $('.projects-container').each(function(index, container) {
+      let $container = $(container);
+      let $section = $container.closest('section');
+      let layout = 'masonry';
+      if ($section.find('.isotope').hasClass('js-layout-row')) {
+        layout = 'fitRows';
+      }
+
+      $container.imagesLoaded(function() {
+        // Initialize Isotope after all images have loaded.
+        $container.isotope({
+          itemSelector: '.isotope-item',
+          layoutMode: layout,
+          filter: $section.find('.default-project-filter').text()
+        });
+        // Filter items when filter link is clicked.
+        $section.find('.project-filters a').click(function() {
+          let selector = $(this).attr('data-filter');
+          $container.isotope({filter: selector});
+          $(this).removeClass('active').addClass('active').siblings().removeClass('active all');
+          return false;
+        });
+      });
+    });
+
+    // Enable publication filter for publication index page.
+    if ($('.pub-filters-select')) {
+      filter_publications();
+      // Useful for changing hash manually (e.g. in development):
+      // window.addEventListener('hashchange', filter_publications, false);
+    }
+
+    // Load citation modal on 'Cite' click.
+    $('.js-cite-modal').click(function(e) {
+      e.preventDefault();
+      let filename = $(this).attr('data-filename');
+      let modal = $('#modal');
+      modal.find('.modal-body').load( filename , function( response, status, xhr ) {
+        if ( status == 'error' ) {
+          let msg = "Error: ";
+          $('#modal-error').html( msg + xhr.status + " " + xhr.statusText );
+        } else {
+          $('.js-download-cite').attr('href', filename);
+        }
+      });
+      modal.modal('show');
+    });
+
+    // Copy citation text on 'Copy' click.
+    $('.js-copy-cite').click(function(e) {
+      e.preventDefault();
+      // Get selection.
+      let range = document.createRange();
+      let code_node = document.querySelector('#modal .modal-body');
+      range.selectNode(code_node);
+      window.getSelection().addRange(range);
+      try {
+        // Execute the copy command.
+        document.execCommand('copy');
+      } catch(e) {
+        console.log('Error: citation copy failed.');
+      }
+      // Remove selection.
+      window.getSelection().removeRange(range);
+    });
+
+    // Initialise Google Maps if necessary.
+    initMap();
+  });
+
+})(jQuery);
+</script><script>hljs.initHighlightingOnLoad();</script><script>
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script><script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-120928140-1', 'auto');
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script><script>/*************************************************
+ *  Academic: the personal website framework for Hugo.
+ *  https://github.com/gcushen/hugo-academic
+ **************************************************/
+
+(function($){
+
+  /* ---------------------------------------------------------------------------
+   * Responsive scrolling for URL hashes.
+   * --------------------------------------------------------------------------- */
+
+  // Dynamically get responsive navigation bar offset.
+  let $navbar = $('.navbar-header');
+  let navbar_offset = $navbar.innerHeight();
+
+  /**
+   * Responsive hash scrolling.
+   * Check for a URL hash as an anchor.
+   * If it exists on current page, scroll to it responsively.
+   * If `target` argument omitted (e.g. after event), assume it's the window's hash.
+   */
+  function scrollToAnchor(target) {
+    // If `target` is undefined or HashChangeEvent object, set it to window's hash.
+    target = (typeof target === 'undefined' || typeof target === 'object') ? window.location.hash : target;
+    // Escape colons from IDs, such as those found in Markdown footnote links.
+    target = target.replace(/:/g, '\\:');
+
+    // If target element exists, scroll to it taking into account fixed navigation bar offset.
+    if($(target).length) {
+      $('body').addClass('scrolling');
+      $('html, body').animate({
+        scrollTop: $(target).offset().top - navbar_offset
+      }, 600, function () {
+        $('body').removeClass('scrolling');
+      });
+    }
+  }
+
+  // Make Scrollspy responsive.
+  function fixScrollspy() {
+    let $body = $('body');
+    let data = $body.data('bs.scrollspy');
+    if (data) {
+      data.options.offset = navbar_offset;
+      $body.data('bs.scrollspy', data);
+      $body.scrollspy('refresh');
+    }
+  }
+
+  // Check for hash change event and fix responsive offset for hash links (e.g. Markdown footnotes).
+  window.addEventListener("hashchange", scrollToAnchor);
+
+  /* ---------------------------------------------------------------------------
+   * Add smooth scrolling to all links inside the main navbar.
+   * --------------------------------------------------------------------------- */
+
+  $('#navbar-main li.nav-item a').on('click', function(event) {
+    // Store requested URL hash.
+    let hash = this.hash;
+
+    // If we are on the homepage and the navigation bar link is to a homepage section.
+    if ( hash && $(hash).length && ($("#homepage").length > 0)) {
+      // Prevent default click behavior.
+      event.preventDefault();
+
+      // Use jQuery's animate() method for smooth page scrolling.
+      // The numerical parameter specifies the time (ms) taken to scroll to the specified hash.
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top - navbar_offset
+      }, 800);
+    }
+  });
+
+  /* ---------------------------------------------------------------------------
+   * Smooth scrolling for Back To Top link.
+   * --------------------------------------------------------------------------- */
+
+  $('#back_to_top').on('click', function(event) {
+    event.preventDefault();
+    $('html, body').animate({
+      'scrollTop': 0
+    }, 800, function() {
+      window.location.hash = "";
+    });
+  });
+
+  /* ---------------------------------------------------------------------------
+   * Hide mobile collapsable menu on clicking a link.
+   * --------------------------------------------------------------------------- */
+
+  $(document).on('click', '.navbar-collapse.in', function(e) {
+    //get the <a> element that was clicked, even if the <span> element that is inside the <a> element is e.target
+    let targetElement = $(e.target).is('a') ? $(e.target) : $(e.target).parent();
+
+    if (targetElement.is('a') && targetElement.attr('class') != 'dropdown-toggle') {
+      $(this).collapse('hide');
+    }
+  });
+
+  /* ---------------------------------------------------------------------------
+   * Filter publications.
+   * --------------------------------------------------------------------------- */
+
+  let $grid_pubs = $('#container-publications');
+  $grid_pubs.isotope({
+    itemSelector: '.isotope-item',
+    percentPosition: true,
+    masonry: {
+      // Use Bootstrap compatible grid layout.
+      columnWidth: '.grid-sizer'
+    }
+  });
+
+  // Active publication filters.
+  let pubFilters = {};
+
+  // Flatten object by concatenating values.
+  function concatValues( obj ) {
+    let value = '';
+    for ( let prop in obj ) {
+      value += obj[ prop ];
+    }
+    return value;
+  }
+
+  $('.pub-filters').on( 'change', function() {
+    let $this = $(this);
+
+    // Get group key.
+    let filterGroup = $this[0].getAttribute('data-filter-group');
+
+    // Set filter for group.
+    pubFilters[ filterGroup ] = this.value;
+
+    // Combine filters.
+    let filterValues = concatValues( pubFilters );
+
+    // Activate filters.
+    $grid_pubs.isotope({ filter: filterValues });
+
+    // If filtering by publication type, update the URL hash to enable direct linking to results.
+    if (filterGroup == "pubtype") {
+      // Set hash URL to current filter.
+      let url = $(this).val();
+      if (url.substr(0, 9) == '.pubtype-') {
+        window.location.hash = url.substr(9);
+      } else {
+        window.location.hash = '';
+      }
+    }
+  });
+
+  // Filter publications according to hash in URL.
+  function filter_publications() {
+    let urlHash = window.location.hash.replace('#','');
+    let filterValue = '*';
+
+    // Check if hash is numeric.
+    if (urlHash != '' && !isNaN(urlHash)) {
+      filterValue = '.pubtype-' + urlHash;
+    }
+
+    // Set filter.
+    let filterGroup = 'pubtype';
+    pubFilters[ filterGroup ] = filterValue;
+    let filterValues = concatValues( pubFilters );
+
+    // Activate filters.
+    $grid_pubs.isotope({ filter: filterValues });
+
+    // Set selected option.
+    $('.pubtype-select').val(filterValue);
+  }
+
+  /* ---------------------------------------------------------------------------
+  * Google Maps or OpenStreetMap via Leaflet.
+  * --------------------------------------------------------------------------- */
+
+  function initMap () {
+    if ($('#map').length) {
+      let map_provider = $('#map-provider').val();
+      let lat = $('#map-lat').val();
+      let lng = $('#map-lng').val();
+      let zoom = parseInt($('#map-zoom').val());
+      let address = $('#map-dir').val();
+      let api_key = $('#map-api-key').val();
+      
+      if ( map_provider == 1 ) {
+        let map = new GMaps({
+          div: '#map',
+          lat: lat,
+          lng: lng,
+          zoom: zoom,
+          zoomControl: true,
+          zoomControlOpt: {
+            style: 'SMALL',
+            position: 'TOP_LEFT'
+          },
+          panControl: false,
+          streetViewControl: false,
+          mapTypeControl: false,
+          overviewMapControl: false,
+          scrollwheel: true,
+          draggable: true
+        });
+
+        map.addMarker({
+          lat: lat,
+          lng: lng,
+          click: function (e) {
+            let url = 'https://www.google.com/maps/place/' + encodeURIComponent(address) + '/@' + lat + ',' + lng +'/';
+            window.open(url, '_blank')
+          },
+          title: address
+        })
+      } else {
+          let map = new L.map('map').setView([lat, lng], zoom);
+          if ( map_provider == 3 && api_key.length ) {
+            L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+              attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+              maxZoom: 18,
+              id: 'mapbox.streets',
+              accessToken: api_key
+            }).addTo(map);
+          } else {
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+              maxZoom: 19,
+              attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+            }).addTo(map);
+          }
+          let marker = L.marker([lat, lng]).addTo(map);
+          let url = lat + ',' + lng +'#map='+ zoom +'/'+ lat +'/'+ lng +'&layers=N';
+          marker.bindPopup(address + '<p><a href="https://www.openstreetmap.org/directions?engine=osrm_car&route='+ url +'">Routing via OpenStreetMap</a></p>');
+      }
+    }
+  }
+
+  /* ---------------------------------------------------------------------------
+   * On window load.
+   * --------------------------------------------------------------------------- */
+
+  $(window).on('load', function() {
+    if (window.location.hash) {
+      // When accessing homepage from another page and `#top` hash is set, show top of page (no hash).
+      if (window.location.hash == "#top") {
+        window.location.hash = ""
+      } else {
+        // If URL contains a hash, scroll to target ID taking into account responsive offset.
+        scrollToAnchor();
+      }
+    }
+
+    // Initialize Scrollspy.
+    let $body = $('body');
+    $body.scrollspy({offset: navbar_offset });
+
+    // Call `fixScrollspy` when window is resized.
+    let resizeTimer;
+    $(window).resize(function() {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(fixScrollspy, 200);
+    });
+
+    // Filter projects.
+    $('.projects-container').each(function(index, container) {
+      let $container = $(container);
+      let $section = $container.closest('section');
+      let layout = 'masonry';
+      if ($section.find('.isotope').hasClass('js-layout-row')) {
+        layout = 'fitRows';
+      }
+
+      $container.imagesLoaded(function() {
+        // Initialize Isotope after all images have loaded.
+        $container.isotope({
+          itemSelector: '.isotope-item',
+          layoutMode: layout,
+          filter: $section.find('.default-project-filter').text()
+        });
+        // Filter items when filter link is clicked.
+        $section.find('.project-filters a').click(function() {
+          let selector = $(this).attr('data-filter');
+          $container.isotope({filter: selector});
+          $(this).removeClass('active').addClass('active').siblings().removeClass('active all');
+          return false;
+        });
+      });
+    });
+
+    // Enable publication filter for publication index page.
+    if ($('.pub-filters-select')) {
+      filter_publications();
+      // Useful for changing hash manually (e.g. in development):
+      // window.addEventListener('hashchange', filter_publications, false);
+    }
+
+    // Load citation modal on 'Cite' click.
+    $('.js-cite-modal').click(function(e) {
+      e.preventDefault();
+      let filename = $(this).attr('data-filename');
+      let modal = $('#modal');
+      modal.find('.modal-body').load( filename , function( response, status, xhr ) {
+        if ( status == 'error' ) {
+          let msg = "Error: ";
+          $('#modal-error').html( msg + xhr.status + " " + xhr.statusText );
+        } else {
+          $('.js-download-cite').attr('href', filename);
+        }
+      });
+      modal.modal('show');
+    });
+
+    // Copy citation text on 'Copy' click.
+    $('.js-copy-cite').click(function(e) {
+      e.preventDefault();
+      // Get selection.
+      let range = document.createRange();
+      let code_node = document.querySelector('#modal .modal-body');
+      range.selectNode(code_node);
+      window.getSelection().addRange(range);
+      try {
+        // Execute the copy command.
+        document.execCommand('copy');
+      } catch(e) {
+        console.log('Error: citation copy failed.');
+      }
+      // Remove selection.
+      window.getSelection().removeRange(range);
+    });
+
+    // Initialise Google Maps if necessary.
+    initMap();
+  });
+
+})(jQuery);
+</script><script>hljs.initHighlightingOnLoad();</script><script>
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script><script>
       window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
       ga('create', 'UA-120928140-1', 'auto');
       ga('require', 'eventTracker');
